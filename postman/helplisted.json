@@ -16,7 +16,7 @@
 							"item": [
 								{
 									"name": "stripe.createCheckoutSession",
-									"_postman_id": "7f31e9fb-c70b-4950-8d0c-7cdf0662b379",
+									"id": "7f31e9fb-c70b-4950-8d0c-7cdf0662b379",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -41,25 +41,21 @@
 													"value": "txcd_20060002",
 													"type": "text"
 												}
-											],
-											"options": {
-												"formdata": {}
-											}
+											]
 										},
 										"url": "{{baseUrl}}/api/create-checkout-session"
 									},
 									"response": []
 								}
 							],
-							"_postman_id": "a2b621a6-322e-49c7-86e9-b7ef4d4fd2fb",
-							"_postman_isSubFolder": true
+							"id": "a2b621a6-322e-49c7-86e9-b7ef4d4fd2fb"
 						},
 						{
 							"name": "Cloudflare Images",
 							"item": [
 								{
 									"name": "images.creatorUpload",
-									"_postman_id": "a89bf0e3-6709-4b2d-97d2-1c605dec805b",
+									"id": "a89bf0e3-6709-4b2d-97d2-1c605dec805b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -97,8 +93,7 @@
 											"variable": [
 												{
 													"key": "cfAccountId",
-													"value": "{{CLOUDFLARE_ACCT_IDENTIFIER}}",
-													"type": "string"
+													"value": "{{CLOUDFLARE_ACCT_IDENTIFIER}}"
 												}
 											]
 										}
@@ -196,7 +191,7 @@
 								},
 								{
 									"name": "images.uploadMany",
-									"_postman_id": "95582c53-35d9-4182-83f4-7f2c29664660",
+									"id": "95582c53-35d9-4182-83f4-7f2c29664660",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -233,10 +228,7 @@
 													"value": "https://badge.hardenize.com/v2/images/hardenize-template-standard.png",
 													"type": "text"
 												}
-											],
-											"options": {
-												"formdata": {}
-											}
+											]
 										},
 										"url": {
 											"raw": "https://api.cloudflare.com/client/v4/accounts/:account_identifier/images/v1",
@@ -257,8 +249,7 @@
 											"variable": [
 												{
 													"key": "account_identifier",
-													"value": null,
-													"type": "any"
+													"value": null
 												}
 											]
 										}
@@ -294,10 +285,7 @@
 															"value": "https://badge.hardenize.com/v2/images/hardenize-template-standard.png",
 															"type": "text"
 														}
-													],
-													"options": {
-														"formdata": {}
-													}
+													]
 												},
 												"url": {
 													"raw": "https://api.cloudflare.com/client/v4/accounts/:account_identifier/images/v1",
@@ -376,7 +364,7 @@
 								},
 								{
 									"name": "images.creatorUpload",
-									"_postman_id": "9e27ba49-2589-4676-9177-5e161390e964",
+									"id": "9e27ba49-2589-4676-9177-5e161390e964",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -407,10 +395,7 @@
 													"value": "",
 													"type": "text"
 												}
-											],
-											"options": {
-												"formdata": {}
-											}
+											]
 										},
 										"url": {
 											"raw": "https://api.cloudflare.com/client/v4/accounts/:cfAccountId/images/v2/direct_upload",
@@ -432,8 +417,7 @@
 											"variable": [
 												{
 													"key": "cfAccountId",
-													"value": "{{CF_ACCOUNT_ID}}",
-													"type": "string"
+													"value": "{{CF_ACCOUNT_ID}}"
 												}
 											]
 										}
@@ -458,10 +442,7 @@
 															"value": "true",
 															"type": "text"
 														}
-													],
-													"options": {
-														"formdata": {}
-													}
+													]
 												},
 												"url": {
 													"raw": "https://api.cloudflare.com/client/v4/accounts/:cfAccountId/images/v2/direct_upload",
@@ -549,7 +530,7 @@
 								},
 								{
 									"name": "images.cloudflareDraftStatus",
-									"_postman_id": "ab02edfb-aa58-4647-821e-c12acfaee689",
+									"id": "ab02edfb-aa58-4647-821e-c12acfaee689",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -570,10 +551,7 @@
 										],
 										"body": {
 											"mode": "formdata",
-											"formdata": [],
-											"options": {
-												"formdata": {}
-											}
+											"formdata": []
 										},
 										"url": {
 											"raw": "https://api.cloudflare.com/client/v4/accounts/:account_identifier/images/v1/:image_identifier",
@@ -595,13 +573,11 @@
 											"variable": [
 												{
 													"key": "account_identifier",
-													"value": "{{CLOUDFLARE_ACCT_IDENTIFIER}}",
-													"type": "string"
+													"value": "{{CLOUDFLARE_ACCT_IDENTIFIER}}"
 												},
 												{
 													"key": "image_identifier",
-													"value": "{{CF_IMAGE_ID}}",
-													"type": "string"
+													"value": "{{CF_IMAGE_ID}}"
 												}
 											]
 										}
@@ -621,10 +597,7 @@
 												],
 												"body": {
 													"mode": "formdata",
-													"formdata": [],
-													"options": {
-														"formdata": {}
-													}
+													"formdata": []
 												},
 												"url": {
 													"raw": "https://api.cloudflare.com/client/v4/accounts/:account_identifier/images/v1/:image_identifier",
@@ -708,7 +681,7 @@
 								},
 								{
 									"name": "imageWorker.getWatermark",
-									"_postman_id": "9e0b43d5-0d7b-4d1b-9569-6fd0dfbec6e1",
+									"id": "9e0b43d5-0d7b-4d1b-9569-6fd0dfbec6e1",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -746,7 +719,7 @@
 									"response": []
 								}
 							],
-							"_postman_id": "9dd09a4f-33e9-427e-8148-5550125fd89d",
+							"id": "9dd09a4f-33e9-427e-8148-5550125fd89d",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -768,15 +741,14 @@
 										]
 									}
 								}
-							],
-							"_postman_isSubFolder": true
+							]
 						},
 						{
 							"name": "Rebrandly",
 							"item": [
 								{
 									"name": "Create ShortURL",
-									"_postman_id": "daa6a641-b677-4826-b5fd-f61f9f1ac214",
+									"id": "daa6a641-b677-4826-b5fd-f61f9f1ac214",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -880,12 +852,10 @@
 									]
 								}
 							],
-							"_postman_id": "ae4866d8-90bf-4462-9c64-a32077304cbd",
-							"_postman_isSubFolder": true
+							"id": "ae4866d8-90bf-4462-9c64-a32077304cbd"
 						}
 					],
-					"_postman_id": "ea050416-ad47-4829-bfb5-67d9ed1d085c",
-					"_postman_isSubFolder": true
+					"id": "ea050416-ad47-4829-bfb5-67d9ed1d085c"
 				},
 				{
 					"name": "Internal",
@@ -895,7 +865,7 @@
 							"item": [
 								{
 									"name": "locations.findAll",
-									"_postman_id": "9b097aa1-4975-421a-ac95-93dacb320dde",
+									"id": "9b097aa1-4975-421a-ac95-93dacb320dde",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1041,15 +1011,14 @@
 									]
 								}
 							],
-							"_postman_id": "472b6df3-3de6-4999-a244-e35018a05e6b",
-							"_postman_isSubFolder": true
+							"id": "472b6df3-3de6-4999-a244-e35018a05e6b"
 						},
 						{
 							"name": "Listing",
 							"item": [
 								{
 									"name": "listings.createOne",
-									"_postman_id": "18bfbcc9-f431-4f81-a6c3-7ffea7049717",
+									"id": "18bfbcc9-f431-4f81-a6c3-7ffea7049717",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1071,7 +1040,7 @@
 								},
 								{
 									"name": "listings.findOneById",
-									"_postman_id": "65affaaf-3c3f-429b-8a53-de8689e0c57b",
+									"id": "65affaaf-3c3f-429b-8a53-de8689e0c57b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1091,8 +1060,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63d3be69ac28cee8de6220d4",
-													"type": "string"
+													"value": "63d3be69ac28cee8de6220d4"
 												}
 											]
 										}
@@ -1235,7 +1203,7 @@
 								},
 								{
 									"name": "listings.findAllByTitle",
-									"_postman_id": "c7f4aa18-0091-4355-b548-e1d4d49e07f0",
+									"id": "c7f4aa18-0091-4355-b548-e1d4d49e07f0",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1413,7 +1381,7 @@
 								},
 								{
 									"name": "listings.findAllByCategory",
-									"_postman_id": "dc56e917-8ed3-4f44-83a6-674570fd8cab",
+									"id": "dc56e917-8ed3-4f44-83a6-674570fd8cab",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1592,7 +1560,7 @@
 								},
 								{
 									"name": "listings.findAllByLocation",
-									"_postman_id": "027250a5-d0bd-4a78-83a3-9780247726b3",
+									"id": "027250a5-d0bd-4a78-83a3-9780247726b3",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1771,7 +1739,7 @@
 								},
 								{
 									"name": "listings.findAllMatching",
-									"_postman_id": "119a61b6-bf88-4737-ad3c-06827ac537f3",
+									"id": "119a61b6-bf88-4737-ad3c-06827ac537f3",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -1958,7 +1926,7 @@
 								},
 								{
 									"name": "listings.findAllPublished",
-									"_postman_id": "c7d0ea26-2a4d-4184-b89c-1732461e1ff9",
+									"id": "c7d0ea26-2a4d-4184-b89c-1732461e1ff9",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2129,7 +2097,7 @@
 								},
 								{
 									"name": "listings.updateOne",
-									"_postman_id": "427de764-ec5a-44c5-a537-f27b4e8d7c30",
+									"id": "427de764-ec5a-44c5-a537-f27b4e8d7c30",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2168,8 +2136,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63209b85b196121f1443b78b",
-													"type": "string"
+													"value": "63209b85b196121f1443b78b"
 												}
 											]
 										}
@@ -2325,15 +2292,14 @@
 									]
 								}
 							],
-							"_postman_id": "557a6028-d42c-43b4-b3a2-0bdac8143c51",
-							"_postman_isSubFolder": true
+							"id": "557a6028-d42c-43b4-b3a2-0bdac8143c51"
 						},
 						{
 							"name": "Helper",
 							"item": [
 								{
 									"name": "helpers.createOne",
-									"_postman_id": "ceda6964-5962-4d0f-ad57-44c489932613",
+									"id": "ceda6964-5962-4d0f-ad57-44c489932613",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2342,7 +2308,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n\t\"autofillHelper\": true,\r\n\t\"business\": \"Furnace Fixers of Okaloosa County\",\r\n\t\"category\": \"hvac\",\r\n\t\"email\": \"bob@furnacefixers.com\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\r\n\t\"tel\": 8136552450,\r\n\t\"id\": \"63ecc5f5009ec3c277ed6928\"\r\n}",
+											"raw": "{\r\n\t\"autofillHelper\": true,\r\n\t\"business\": \"Furnace Fixers of Okaloosa County\",\r\n\t\"category\": \"hvac\",\r\n\t\"email\": \"bob@furnacefixers.com\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\r\n\t\"tel\": 8136552450\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2494,7 +2460,7 @@
 								},
 								{
 									"name": "helpers.findOneById",
-									"_postman_id": "edc18ea5-fbca-4044-904f-c86083be5376",
+									"id": "edc18ea5-fbca-4044-904f-c86083be5376",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2513,8 +2479,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63c84e2aa898a3ccba17f425",
-													"type": "string"
+													"value": "63c84e2aa898a3ccba17f425"
 												}
 											]
 										}
@@ -2668,7 +2633,7 @@
 								},
 								{
 									"name": "helpers.findOneByEmail",
-									"_postman_id": "97368c77-50ef-4143-be8c-0d6ce48dcadb",
+									"id": "97368c77-50ef-4143-be8c-0d6ce48dcadb",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2848,7 +2813,7 @@
 								},
 								{
 									"name": "helpers.findAllByCategory",
-									"_postman_id": "62d839ed-2634-433e-8c08-081e52073a7c",
+									"id": "62d839ed-2634-433e-8c08-081e52073a7c",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3063,7 +3028,7 @@
 								},
 								{
 									"name": "helpers.findAllByLocation",
-									"_postman_id": "a56839b5-aabe-4375-b9f4-085a753cf3d9",
+									"id": "a56839b5-aabe-4375-b9f4-085a753cf3d9",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3102,7 +3067,7 @@
 								},
 								{
 									"name": "helpers.findAllMatching",
-									"_postman_id": "d17e276b-32f0-4865-a58b-cea47e64da88",
+									"id": "d17e276b-32f0-4865-a58b-cea47e64da88",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3293,7 +3258,7 @@
 								},
 								{
 									"name": "helpers.findAll",
-									"_postman_id": "1d6ea164-2f76-4908-9b52-0869288c838a",
+									"id": "1d6ea164-2f76-4908-9b52-0869288c838a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3460,7 +3425,7 @@
 								},
 								{
 									"name": "helpers.updateOne",
-									"_postman_id": "b9810baf-6ed5-4b50-be20-ee6704b70b28",
+									"id": "b9810baf-6ed5-4b50-be20-ee6704b70b28",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3488,8 +3453,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63ecc85f009ec3c277ed692c",
-													"type": "string"
+													"value": "63ecc85f009ec3c277ed692c"
 												}
 											]
 										}
@@ -3645,15 +3609,14 @@
 									]
 								}
 							],
-							"_postman_id": "a8a655db-2c65-4b8a-baa0-a0e170d8ee1a",
-							"_postman_isSubFolder": true
+							"id": "a8a655db-2c65-4b8a-baa0-a0e170d8ee1a"
 						},
 						{
 							"name": "Category",
 							"item": [
 								{
 									"name": "categories.findOneById",
-									"_postman_id": "7a5db304-ea93-43ff-b966-17b227358504",
+									"id": "7a5db304-ea93-43ff-b966-17b227358504",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3672,8 +3635,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "interior-design-help",
-													"type": "string"
+													"value": "interior-design-help"
 												}
 											]
 										}
@@ -3827,7 +3789,7 @@
 								},
 								{
 									"name": "categories.findAll",
-									"_postman_id": "1f7aef8c-3429-4004-a3a1-0ea78e7435d2",
+									"id": "1f7aef8c-3429-4004-a3a1-0ea78e7435d2",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3973,16 +3935,14 @@
 									]
 								}
 							],
-							"_postman_id": "7f300002-bc33-4902-910e-2496956a8a09",
-							"_postman_isSubFolder": true
+							"id": "7f300002-bc33-4902-910e-2496956a8a09"
 						}
 					],
-					"_postman_id": "f23bb307-bd08-4c63-8527-9e7a4291232c",
-					"_postman_isSubFolder": true
+					"id": "f23bb307-bd08-4c63-8527-9e7a4291232c"
 				},
 				{
 					"name": "endpoint.baseUrl",
-					"_postman_id": "70a9d0d2-36fb-41e8-b68b-12d79f8b190e",
+					"id": "70a9d0d2-36fb-41e8-b68b-12d79f8b190e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4067,7 +4027,7 @@
 					]
 				}
 			],
-			"_postman_id": "fe839cf7-80a3-4cf6-b484-1432a98a52ba"
+			"id": "fe839cf7-80a3-4cf6-b484-1432a98a52ba"
 		},
 		{
 			"name": "Webhooks",
@@ -4077,7 +4037,7 @@
 					"item": [
 						{
 							"name": "hl-dev",
-							"_postman_id": "18fde59b-31d7-4d0b-91a8-d1722de5b464",
+							"id": "18fde59b-31d7-4d0b-91a8-d1722de5b464",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4093,24 +4053,22 @@
 							"response": []
 						}
 					],
-					"_postman_id": "072581ee-60f4-42bb-8db0-b240612f30d1",
-					"_postman_isSubFolder": true
+					"id": "072581ee-60f4-42bb-8db0-b240612f30d1"
 				},
 				{
 					"name": "Twilio",
 					"item": [],
-					"_postman_id": "018a70ef-908e-4e00-b445-0b304de6050f",
-					"_postman_isSubFolder": true
+					"id": "018a70ef-908e-4e00-b445-0b304de6050f"
 				}
 			],
-			"_postman_id": "ceb05e14-c89d-4946-8b54-9c0acf110a16"
+			"id": "ceb05e14-c89d-4946-8b54-9c0acf110a16"
 		},
 		{
 			"name": "Requests",
 			"item": [
 				{
 					"name": "server.getFavicon",
-					"_postman_id": "0826a0f0-9356-453c-b38f-0dd018839ace",
+					"id": "0826a0f0-9356-453c-b38f-0dd018839ace",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -4122,7 +4080,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "a5f64b26-de0b-4bb1-973f-6856241ea9a4"
+			"id": "a5f64b26-de0b-4bb1-973f-6856241ea9a4"
 		}
 	],
 	"event": [
@@ -4149,40 +4107,35 @@
 	],
 	"variable": [
 		{
-			"id": "4809ccd5-3822-41cd-8cdb-065504677b2a",
+			"id": "212abb86-3ba1-4959-9986-5afd01739172",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "c2a94bbc-8b1c-4742-9f95-8a01269a927e",
+			"id": "d5eec636-3c72-44e9-b4b4-a467206e401b",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
-			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0",
-			"type": "string"
+			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "cc0f17c3-c624-496b-b9a0-a44aa5e77368",
+			"id": "3e9d8af1-c453-4782-a0db-9ebee44c2421",
 			"key": "CF_BEARER_TOKEN",
-			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk",
-			"type": "string"
+			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "180a7bf3-4de7-4829-bb53-b0486cfed5e8",
+			"id": "7d423583-a696-4f5e-9b6e-fcd1a4849d22",
 			"key": "baseUrl",
-			"value": "http://localhost:3000",
-			"type": "string"
+			"value": "http://localhost:3000"
 		},
 		{
-			"id": "92c506d9-dda3-404f-89ea-5def52a4a5a9",
+			"id": "5b127022-47b1-4058-ba3e-e61b99963b23",
 			"key": "baseUrlApi",
-			"value": "{{baseUrl}}/api",
-			"type": "string"
+			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "d5b7564f-37d1-4c5f-a372-27c042ba8d11",
+			"id": "d14ecc09-d801-49dd-adb1-c2a0313d04d1",
 			"key": "altBaseUrl",
-			"value": "http://172.29.161.17:3000",
-			"type": "string"
+			"value": "http://172.29.161.17:3000"
 		}
 	]
 }
