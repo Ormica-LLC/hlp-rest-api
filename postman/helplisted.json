@@ -1027,7 +1027,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{  \"category\": \"painting\",\r\n  \"content\": \"Welcome to Regal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Regal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\r\n  \"example\": true,\r\n  \"helper\": \"63c84e2aa898a3ccba17f42c\",\r\n  \"location\": \"Miami, FL\",\r\n  \"published\": true,\r\n  \"thumbnail\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\r\n  \"title\": \"Pridal Services: Residential & Commercial Painters\"}",
+											"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"hvac\",\r\n\t\"content\": \"At Furnace Fixers of Okaloosa County, our specialists have been in the industry for years and are experienced in all aspects of air conditioning and electrical work. We work closely with builders and local coding requirements to ensure installations meet with complete customer satisfaction while meeting all needs for a modern HVAC system. Numerous individual customers of Furnace Fixers of Okaloosa County testify to the company's reliability, quality, and professionalism regarding our HVAC services. As in most industries, technology has changed the nature of business and the products available over the last two decades. At Furnace Fixers of Okaloosa County, we embrace change to ensure that we offer customers the latest types and models of air conditioning products.\",\r\n\t\"helper\": \"63ecc85f009ec3c277ed692c\",\r\n\t\"location\": \"Miami, FL\",\r\n\t\"thumbnail\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\r\n\t\"title\": \"Heating, AC, Ventilation & Electrical, DONE RIGHT THE FIRST TIME!\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4107,33 +4107,33 @@
 	],
 	"variable": [
 		{
-			"id": "17483622-8249-4d32-a3a0-1ff8ef883a22",
+			"id": "700824ae-ff7a-4d41-9ab9-ad350bf9e4a9",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "a6a56479-4752-44dc-81a7-07c71319f1a5",
+			"id": "a41fce57-1947-4093-ab3f-c844df39faf9",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "c6b20836-423d-46b9-8700-b5301e544a35",
+			"id": "22f866b5-5833-46a0-afac-62cdfe990773",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "ba0212eb-6edc-46b1-842f-174bd4d589e0",
+			"id": "40841676-b5a8-4933-99a0-be5821d107c7",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "039f7862-99fa-45e8-87ab-c683bc60e475",
+			"id": "146b784e-47f6-4e5e-8175-c6571cc5d3bf",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "cbbf117d-bc65-4c1f-904e-23e98997747d",
+			"id": "6aead5e2-c4f9-48dc-ab51-ff09ec0e735c",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
