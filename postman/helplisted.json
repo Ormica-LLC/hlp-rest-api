@@ -3805,7 +3805,7 @@
 												}
 											}
 										},
-										"url": "http://localhost:5000/category"
+										"url": "{{baseUrlApi}}/category"
 									},
 									"response": [
 										{
@@ -4286,33 +4286,33 @@
 	],
 	"variable": [
 		{
-			"id": "b8377470-6e1c-4b83-b932-76ff145faed1",
+			"id": "cb0cb349-30a8-49c9-8837-6c54e9889a79",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "9c971fba-72ee-4658-81d4-2168cdc2753b",
+			"id": "6b4e8e28-4996-4ef9-8db0-4ded66c80155",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "d8a361b6-95d2-415e-8e43-42cc1673b549",
+			"id": "c9b60752-20ee-4014-a8f1-ccdcc4b0d0e5",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "565a2234-c87c-4160-894b-9208d61ebda7",
+			"id": "3913b663-24cd-4eb4-8b1e-bb298c139b62",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "df8d34f1-163e-4def-acf2-cd0957256b66",
+			"id": "1dc6a747-939a-4f82-bd95-42753509a124",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "f3557524-2cf4-4738-aba9-c02408e34bf7",
+			"id": "f97235f4-68f1-4e89-bd23-2668b6d068c0",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
