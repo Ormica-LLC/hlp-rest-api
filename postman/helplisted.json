@@ -3794,25 +3794,18 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "GET",
+										"method": "POST",
 										"header": [],
-										"url": {
-											"raw": "{{baseUrlApi}}/category/:id",
-											"host": [
-												"{{baseUrlApi}}"
-											],
-											"path": [
-												"category",
-												":id"
-											],
-											"variable": [
-												{
-													"id": "3eabd149-4c70-4e63-8291-9897ca9b7ee1",
-													"key": "id",
-													"value": "interior-design-help"
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\t\"alt\": \"cleaning logo\",\r\n\t\"category\": \"cleaning\",\r\n\t\"icon\": \"CleaningServicesTwoTone\",\r\n\t\"image\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d5cd8d4c-48e8-4acf-a501-03fbd17ee100/660x440\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl150x150\",\r\n\t\"slug\": \"cleaning\",\r\n\t\"term\": \"Cleaning Services\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
 												}
-											]
-										}
+											}
+										},
+										"url": "{{baseUrlApi}}/category"
 									},
 									"response": [
 										{
@@ -4293,33 +4286,33 @@
 	],
 	"variable": [
 		{
-			"id": "c896d6cf-8c4c-4352-b585-58df1827dc2c",
+			"id": "032f5677-97c3-4f42-93e8-d970ad90dfc9",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "e12121d0-7872-4ee0-a019-a745271705bb",
+			"id": "893c40bc-4df7-4aba-9bd9-0b77ddcfbde1",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "dcd43e38-4779-4ae6-ae1f-d899dd61b4e9",
+			"id": "b033b32f-f1ac-4f17-9a96-4abb18d13d0a",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "c8763563-22e0-47c6-ba50-3899b0bbce33",
+			"id": "588c9152-3539-48c6-a628-221fdc1e1675",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "dca32145-5102-43dc-95f7-de81b83c5012",
+			"id": "c46fce9f-4635-4fea-87e4-b4c2c8a493e9",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "46b76881-5a66-4543-8bd8-215c3fe5443c",
+			"id": "b17bb3d7-48c0-4c1b-9be4-2e3507404893",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
