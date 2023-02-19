@@ -3788,6 +3788,180 @@
 									]
 								},
 								{
+									"name": "categories.createOne",
+									"id": "e257c97c-2159-4414-83bd-59c5b72c0b8d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrlApi}}/category/:id",
+											"host": [
+												"{{baseUrlApi}}"
+											],
+											"path": [
+												"category",
+												":id"
+											],
+											"variable": [
+												{
+													"id": "3eabd149-4c70-4e63-8291-9897ca9b7ee1",
+													"key": "id",
+													"value": "interior-design-help"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "f0007e29-ecb4-4085-b518-f1ed7ad95ebc",
+											"name": "categories.findOneById",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/category/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"category",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "interior-design-help"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "x-ratelimit-limit",
+													"value": "100"
+												},
+												{
+													"key": "x-ratelimit-remaining",
+													"value": "93"
+												},
+												{
+													"key": "date",
+													"value": "Mon, 13 Feb 2023 15:07:21 GMT"
+												},
+												{
+													"key": "x-ratelimit-reset",
+													"value": "1676300891"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-e9872a9364dfa3bf390c6c676a6cb264';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "512"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"200-GNV/UtKa233aTSK1lSYlGZdPdbc\""
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "[{\"alt\":\"interior design logo\",\"category\":\"designer\",\"icon\":\"LightTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7cbba6c1-085f-47ee-27f5-465d36651500/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d6c523f8-e0b9-474b-048f-1f00bb5ec200/hl150x150\",\"name\":\"Int. Design\",\"slug\":\"interior-design-help\",\"term\":\"Interior Designers\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d07\"}]"
+										}
+									]
+								},
+								{
 									"name": "categories.findAll",
 									"id": "1f7aef8c-3429-4004-a3a1-0ea78e7435d2",
 									"protocolProfileBehavior": {
@@ -4119,33 +4293,33 @@
 	],
 	"variable": [
 		{
-			"id": "8401e2b5-678f-489a-baf4-d7b71ccf54df",
+			"id": "c896d6cf-8c4c-4352-b585-58df1827dc2c",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "9927c8ca-59f0-4689-b587-82245882c9d1",
+			"id": "e12121d0-7872-4ee0-a019-a745271705bb",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "a60b7c9e-40d2-46ca-9639-06e85db20f29",
+			"id": "dcd43e38-4779-4ae6-ae1f-d899dd61b4e9",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "3637fdfb-836e-4b56-adbd-1abf1f80d564",
+			"id": "c8763563-22e0-47c6-ba50-3899b0bbce33",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "0f2859ea-2be0-46ee-ae73-9a687174b943",
+			"id": "dca32145-5102-43dc-95f7-de81b83c5012",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "05c1eb25-5a7c-4f3e-98e3-a6ad1e12cfb2",
+			"id": "46b76881-5a66-4543-8bd8-215c3fe5443c",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
