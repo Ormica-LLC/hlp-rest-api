@@ -1249,149 +1249,7 @@
 											]
 										}
 									},
-									"response": [
-										{
-											"id": "770c010a-02d4-4823-918a-46682c0920fe",
-											"name": "listings.findAllByTitle",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{altBaseUrl}}/api/listings/title?title=service&page=0&size=20",
-													"host": [
-														"{{altBaseUrl}}"
-													],
-													"path": [
-														"api",
-														"listings",
-														"title"
-													],
-													"query": [
-														{
-															"key": "title",
-															"value": "service"
-														},
-														{
-															"key": "page",
-															"value": "0"
-														},
-														{
-															"key": "size",
-															"value": "20"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "98"
-												},
-												{
-													"key": "date",
-													"value": "Thu, 26 Jan 2023 04:54:05 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1674709622"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"dbc-s/ZW3ncD1URSN0AbuMmPhP1lsiI\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Content-Encoding",
-													"value": "gzip"
-												},
-												{
-													"key": "Transfer-Encoding",
-													"value": "chunked"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"totalItems\":3,\"listings\":[{\"alt\":\"[example] pridal services logo\",\"category\":\"painting\",\"content\":\"Welcome to Regal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Regal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\"helperId\":\"63c84e2aa898a3ccba17f42c\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\"title\":\"[Example] Pridal Services: Residential & Commercial Painters\",\"id\":\"63c897699673c447330bf214\"},{\"alt\":\"[example] a handyman service logo\",\"category\":\"handyman\",\"content\":\"If there's an odd job you can think of, then a HandyMan can do it. Not only that, the &lsquo;can do&rsquo; attitude for which our handyman service is so famous applies to everything we do. If you've ever had the painful experience of being told a job is too complicated or bothersome, you'll love our bright, accommodating, fast, intelligent handymen. Every team member is down-to-earth, efficient, and polite. Most importantly, they do what they say they're going to do, and we always tidy up and will not leave a mess for you to clear up once the work is finished.\",\"helperId\":\"63c84e2aa898a3ccba17f426\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/3f385a50-bbf4-4f24-500d-9afde9aedc00/hl150x150\",\"title\":\"[Example] A HandyMan Service\",\"id\":\"63c897699673c447330bf20b\"},{\"alt\":\"[example] sister margarets pool service logo\",\"category\":\"pools\",\"content\":\"Sister Margaret's Pool Service has been operating continually for 28 years. We offer a diverse and sundry scope of services. Our inventory is stocked with every piece of equipment imaginable to keep your collection sparkling and humming as you would expect after such a significant investment. We are equally comfortable supplying and installing pumps and filters as we convert pools to salt water using revolutionary self-cleaning cell technology. During the winter, we typically perform acid washing service, which has become the de facto standard to revitalize those pools where their surfaces have become dull such that a regular pool clean cannot. We look forward to doing our best for you and hope our working relationship continues whenever you require our services.\",\"helperId\":\"63c84e2aa898a3ccba17f42b\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f9520ea0-f4c5-4ae2-dd02-67a260241700/hl150x150\",\"title\":\"[Example] Sister Margaret's Pool Service\",\"id\":\"63c897699673c447330bf210\"}],\"totalPages\":1,\"currentPage\":0}"
-										}
-									]
+									"response": []
 								},
 								{
 									"name": "listings.findAllByCategory",
@@ -4133,33 +3991,33 @@
 	],
 	"variable": [
 		{
-			"id": "abe2659e-b330-4dba-8233-c464f4ff16bb",
+			"id": "0a0a61a2-0514-47cd-887f-bbe3f5d206f4",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "b6b48c38-a64e-45c5-b9a1-d545eaccd454",
+			"id": "c94af86e-be99-4158-9a93-e5b0ab27d91b",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "cbde53f6-8b8b-4487-93dd-a85c0a83a4c9",
+			"id": "614ce939-9a48-48a5-8bb5-2aeff829e0c6",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "d138c947-718b-4b31-a907-00ec3e88434d",
+			"id": "85e7f650-36e6-4715-b105-65740ad04929",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "3a757853-b06c-4d42-a5e5-e86984329bb1",
+			"id": "ee222c6f-515a-4f07-8469-1a01e6ed21e2",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "2a896278-ec49-4449-a70b-7c3935e6e795",
+			"id": "811f8ec3-c27e-448d-9671-7be97e0b2ba9",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
