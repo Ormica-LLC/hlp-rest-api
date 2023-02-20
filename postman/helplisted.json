@@ -1212,6 +1212,35 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"autofill\":true,\"alt\":\"logo for pridal services: residential & commercial painters\",\"category\":\"painting\",\"content\":\"Welcome to Pridal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Pridal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42c\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\"title\":\"Residential & Commercial Painting Services\",\"createdAt\":\"2023-01-27T12:07:05.680Z\",\"updatedAt\":\"2023-01-27T12:07:05.680Z\",\"id\":\"63d3be69ac28cee8de6220d4\"}"
+										},
+										{
+											"id": "4d0f77eb-ba34-4bd4-98a7-d2c23284942a",
+											"name": "listings.findOneById",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63d3be69ac28cee8de6220d4"
+														}
+													]
+												}
+											},
+											"_postman_previewlanguage": null,
+											"header": null,
+											"cookie": [],
+											"responseTime": null,
+											"body": null
 										}
 									]
 								},
@@ -4314,33 +4343,33 @@
 	],
 	"variable": [
 		{
-			"id": "0ba38364-1b82-4561-8b50-3c1343010ae4",
+			"id": "ea55219d-6056-4c2d-84db-5ee1bbd28f84",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "da2630c7-68d8-4930-8907-a8ccc9f7d9ba",
+			"id": "5d3f8364-c280-4adb-b15d-c256612acf62",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "e3041d3f-3e18-487d-839a-35ba6f2ca1b5",
+			"id": "a315e041-0fe3-4c9d-b1fa-1fde97e8d1b1",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "7501e899-7465-43a0-81cc-33f0d3ce5a8f",
+			"id": "6d16c16f-585b-4874-826b-d17e38608b09",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "03cbb5db-ec2b-446e-bfc3-542d5c13cb91",
+			"id": "4c789c4f-85a4-4299-9c1c-903623cef780",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "2c09826c-78d8-4c24-84bd-078c64fb79aa",
+			"id": "d36043d1-fcd1-45d7-ae32-7379adf8fe53",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
