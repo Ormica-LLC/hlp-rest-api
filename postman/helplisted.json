@@ -1064,7 +1064,156 @@
 											]
 										}
 									},
-									"response": []
+									"response": [
+										{
+											"id": "a0599aff-0bed-4f2d-8bd8-b3e421baa204",
+											"name": "listings.findOneById",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63d3be69ac28cee8de6220d4"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-c59c84934df13b27dbb2385a6de9ccbc';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "146"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "448"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"5de-o7qP/QuFgXW3QW45j/EZl8gr77U\""
+												},
+												{
+													"key": "date",
+													"value": "Mon, 20 Feb 2023 03:05:35 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												},
+												{
+													"key": "Content-Encoding",
+													"value": "gzip"
+												},
+												{
+													"key": "Transfer-Encoding",
+													"value": "chunked"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"autofill\":true,\"alt\":\"logo for pridal services: residential & commercial painters\",\"category\":\"painting\",\"content\":\"Welcome to Pridal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Pridal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42c\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\"title\":\"Residential & Commercial Painting Services\",\"createdAt\":\"2023-01-27T12:07:05.680Z\",\"updatedAt\":\"2023-01-27T12:07:05.680Z\",\"id\":\"63d3be69ac28cee8de6220d4\"}"
+										}
+									]
 								},
 								{
 									"name": "listings.findAllByTitle",
@@ -3984,33 +4133,33 @@
 	],
 	"variable": [
 		{
-			"id": "066d33ca-9e8d-4416-b080-2098e5de2e93",
+			"id": "abe2659e-b330-4dba-8233-c464f4ff16bb",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "eee33051-8a30-4745-8e1d-6bbd37a2d38f",
+			"id": "b6b48c38-a64e-45c5-b9a1-d545eaccd454",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "08ab3db3-1201-4207-8d8e-cee9a38f4dad",
+			"id": "cbde53f6-8b8b-4487-93dd-a85c0a83a4c9",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "50762994-26bd-4790-a975-cbaffc622cc1",
+			"id": "d138c947-718b-4b31-a907-00ec3e88434d",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "ece2bee3-ad7b-47ef-89e2-566ea81d549f",
+			"id": "3a757853-b06c-4d42-a5e5-e86984329bb1",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "768e08f6-2188-4f48-94fa-0742cf42afa3",
+			"id": "2a896278-ec49-4449-a70b-7c3935e6e795",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
