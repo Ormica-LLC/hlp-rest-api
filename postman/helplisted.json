@@ -884,7 +884,7 @@
 									"request": {
 										"method": "GET",
 										"header": [],
-										"url": "{{altBaseUrl}}/api/locations"
+										"url": "{{baseUrlApi}}/locations"
 									},
 									"response": [
 										{
@@ -4326,33 +4326,33 @@
 	],
 	"variable": [
 		{
-			"id": "2043cce9-9c44-47c2-8801-32f140caea01",
+			"id": "9b05d171-afba-49d9-b764-ff2ba44513d3",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "c835e56f-92f3-4fef-b134-e4a042c29984",
+			"id": "0e218582-ffe9-4f90-a822-c1c135e7c705",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "6b4a82ec-e439-4557-a1a2-67d757c2b17b",
+			"id": "86fb25f3-2e80-4c1a-af8d-e44288eaf17f",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "eedbaf71-0fd4-4b17-ae62-2b68271ed004",
+			"id": "b73be40c-e2f6-496c-8f97-407afc085240",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "e16843b0-824e-45b7-96c1-e398f15bfafb",
+			"id": "2070be8c-0b2a-4161-a0a0-067001acce89",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "55bc58c0-e9ab-4aaa-9f16-8872cb4e4d55",
+			"id": "34e53b74-a111-49a5-bbc7-ef1c4f98599b",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
