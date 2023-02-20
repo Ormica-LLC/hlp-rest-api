@@ -4134,7 +4134,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "interior-design-help"
+													"value": "design"
 												}
 											]
 										}
@@ -4618,33 +4618,33 @@
 	],
 	"variable": [
 		{
-			"id": "e01c1a31-f682-4ec1-a35b-683c7347cf93",
+			"id": "0a9601dc-d3ef-4356-88f5-b9cbb92b75ae",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "f66622f2-1b77-400c-bb85-a5288652cede",
+			"id": "c3432d84-f9e1-4a50-b2f0-832830783531",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "c987855b-ba05-484b-b5ce-4945a1c251cf",
+			"id": "9950671d-bef3-40fe-b41d-fc19c22af8a7",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "ca2494bd-bdda-4f0f-9d9e-fe501bfc9494",
+			"id": "bb759075-6ea5-4b8c-9da3-9eb4b12fcb0b",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "8ee3be07-83ea-4b94-b463-de29b2344b63",
+			"id": "d65c0fa8-afdc-4ab1-84b6-709e0a199c1c",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "f60d0d5b-713b-4c69-8295-31d76c831143",
+			"id": "070c976f-6b86-467b-848e-98e8c182e1d8",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
