@@ -4141,150 +4141,6 @@
 									},
 									"response": [
 										{
-											"id": "a5cb160b-a423-4f8a-b9d4-361156316081",
-											"name": "categories.findOneById",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{baseUrlApi}}/category/:id",
-													"host": [
-														"{{baseUrlApi}}"
-													],
-													"path": [
-														"category",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "interior-design-help"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "93"
-												},
-												{
-													"key": "date",
-													"value": "Mon, 13 Feb 2023 15:07:21 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1676300891"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-e9872a9364dfa3bf390c6c676a6cb264';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "512"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"200-GNV/UtKa233aTSK1lSYlGZdPdbc\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "[{\"alt\":\"interior design logo\",\"category\":\"designer\",\"icon\":\"LightTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7cbba6c1-085f-47ee-27f5-465d36651500/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d6c523f8-e0b9-474b-048f-1f00bb5ec200/hl150x150\",\"name\":\"Int. Design\",\"slug\":\"interior-design-help\",\"term\":\"Interior Designers\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d07\"}]"
-										},
-										{
 											"id": "13e5f0b0-af44-46fa-9d8b-0820d2cd10c0",
 											"name": "200 OK",
 											"originalRequest": {
@@ -4762,33 +4618,33 @@
 	],
 	"variable": [
 		{
-			"id": "4230d0f5-4132-49a7-aa83-1c7f4e4cec27",
+			"id": "e01c1a31-f682-4ec1-a35b-683c7347cf93",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "82cf25d2-564b-4882-83fa-d1ff88688410",
+			"id": "f66622f2-1b77-400c-bb85-a5288652cede",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "f4dee01f-d421-4fcc-8b69-180fd3a5c0d0",
+			"id": "c987855b-ba05-484b-b5ce-4945a1c251cf",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "b3246545-5836-47cb-a7a9-3db8cabfd291",
+			"id": "ca2494bd-bdda-4f0f-9d9e-fe501bfc9494",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "9fbdf582-b25e-44fa-bf69-7b3e0622e9ad",
+			"id": "8ee3be07-83ea-4b94-b463-de29b2344b63",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "ca6aa888-c39b-4f6b-9875-f991a4e0802d",
+			"id": "f60d0d5b-713b-4c69-8295-31d76c831143",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
