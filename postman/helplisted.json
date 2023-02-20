@@ -2285,151 +2285,6 @@
 									},
 									"response": [
 										{
-											"id": "75d17ff1-5f0b-40be-b335-5fcfae9a2c81",
-											"name": "listings.findAllMatching",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{altBaseUrl}}/api/listings/matching?location=Miami%2C%20FL&category=painting&page=0&size=20",
-													"host": [
-														"{{altBaseUrl}}"
-													],
-													"path": [
-														"api",
-														"listings",
-														"matching"
-													],
-													"query": [
-														{
-															"key": "location",
-															"value": "Miami%2C%20FL"
-														},
-														{
-															"key": "category",
-															"value": "painting"
-														},
-														{
-															"key": "page",
-															"value": "0"
-														},
-														{
-															"key": "size",
-															"value": "20"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "91"
-												},
-												{
-													"key": "date",
-													"value": "Thu, 26 Jan 2023 04:51:11 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1674708722"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"5a3-bs3AWUycqEt4jfXyvxDrJ6a9Vb8\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Content-Encoding",
-													"value": "gzip"
-												},
-												{
-													"key": "Transfer-Encoding",
-													"value": "chunked"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"totalItems\":1,\"listings\":[{\"alt\":\"[example] pridal services logo\",\"category\":\"painting\",\"content\":\"Welcome to Regal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Regal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\"helperId\":\"63c84e2aa898a3ccba17f42c\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\"title\":\"[Example] Pridal Services: Residential & Commercial Painters\",\"id\":\"63c897699673c447330bf214\"}],\"totalPages\":1,\"currentPage\":0}"
-										},
-										{
 											"id": "804adc00-327c-415b-b8a2-0d673a1cdb90",
 											"name": "200 OK",
 											"originalRequest": {
@@ -4766,33 +4621,33 @@
 	],
 	"variable": [
 		{
-			"id": "176c8456-9df5-4351-8836-810c43323541",
+			"id": "a11ee489-f4d8-4f2c-903d-8b6a496f09c8",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "d5c87867-377d-4620-b9aa-a3b584473faf",
+			"id": "c16c267d-6459-4dcd-8aa6-080a518cd32e",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "a597390d-bd1c-4445-b834-150878c18302",
+			"id": "b90ff0df-efeb-4680-a877-42381d017879",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "10364e02-83a9-4772-bff3-47c42e3bb551",
+			"id": "b12d69ee-7d71-4edf-ac32-fab5ea4194b7",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "0b84ac4a-d195-4c63-aef9-6c702a0cb482",
+			"id": "92fef1bd-4c09-4592-bed5-1dcdd8c19541",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "ae1887e4-2c8f-434a-898f-823b77463206",
+			"id": "3d193dcd-5255-4fc2-b5dd-c2499d4d8889",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
