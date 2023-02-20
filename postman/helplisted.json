@@ -1418,12 +1418,11 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{altBaseUrl}}/api/listings/category?category=painting&page=0&size=20",
+											"raw": "{{baseUrlApi}}/listings/category?category=painting&page=0&size=20",
 											"host": [
-												"{{altBaseUrl}}"
+												"{{baseUrlApi}}"
 											],
 											"path": [
-												"api",
 												"listings",
 												"category"
 											],
@@ -4148,33 +4147,33 @@
 	],
 	"variable": [
 		{
-			"id": "d3183189-5ea3-4d5c-a4a3-8eb6919c498d",
+			"id": "1720516c-dddd-48ba-9896-34c7de29d161",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "be809ea4-bceb-415b-8cfa-08ffb170911a",
+			"id": "40fd6fee-6dae-405d-aad9-d653550afbd3",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "c348bee4-9fab-41c0-85ad-1b2fd9b8a395",
+			"id": "8aefd9d9-02b9-46f0-87af-58b02df85ee7",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "f0116839-3013-4713-bb11-9ff44d31c197",
+			"id": "da9405b5-5934-4bc5-aead-60f16612efe2",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "c4fee9e1-0cc4-454c-a161-6c3ed10b73c8",
+			"id": "316e0cb9-6c5b-4a04-8445-2da60d300111",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "1c339229-4620-4eda-85fe-cff5e32fe2f4",
+			"id": "4d6b06a9-902e-449e-8be9-a30bd1a12cc3",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
