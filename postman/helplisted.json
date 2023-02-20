@@ -1048,7 +1048,146 @@
 										},
 										"url": "{{baseUrlApi}}/listing"
 									},
-									"response": []
+									"response": [
+										{
+											"id": "bad11d17-571c-4cef-8f3f-b55b9bc30999",
+											"name": "listings.createOne",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"Landscaping\",\r\n\t\"content\": \"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\r\n\t\"helper\": \"63ee6a09de56ce7b3403b9c6\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\r\n\t\"title\": \"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{baseUrlApi}}/listing"
+											},
+											"status": "Internal Server Error",
+											"code": 500,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-c9adba59c80d9ba77e34c5e515d0822e';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "142"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "171"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "59"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"3b-G3AGQ+Rlwwi5xS07bVmj1UJfSnI\""
+												},
+												{
+													"key": "date",
+													"value": "Mon, 20 Feb 2023 18:45:52 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Something went wrong; please try a bit later.\"}"
+										}
+									]
 								},
 								{
 									"name": "listings.findOneById",
@@ -4318,33 +4457,33 @@
 	],
 	"variable": [
 		{
-			"id": "fca0e1ba-96f0-40c8-9dd7-c5568081a027",
+			"id": "b9012836-2347-44b3-9932-666120317715",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "a74c6073-23a1-454f-b1fa-e0a6bc257658",
+			"id": "bed0a16c-65c6-4324-888a-aa1efc583a56",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "43fd4c5b-ab48-4e34-ad6d-c35a11400d32",
+			"id": "bf8cd7d6-2783-4697-acb5-3f170f9852cf",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "37284bd6-75ec-4848-b7a6-a2d097ccdf61",
+			"id": "0a370a9b-9450-4277-bcd4-7aaeae636ab1",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "a2b883fd-6ff2-490f-8a2a-d8d5c5eaf9e3",
+			"id": "c09eacf3-b484-4daf-a090-18d51894f5bf",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "7166bd36-d00a-470b-90cc-7fac3e52f9d9",
+			"id": "269a13e6-07c1-438c-8ad3-6c9c3a692cff",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
