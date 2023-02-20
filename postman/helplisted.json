@@ -871,7 +871,23 @@
 									},
 									"request": {
 										"method": "GET",
-										"header": []
+										"header": [],
+										"url": {
+											"raw": "{{baseUrlApi}}/location/:id",
+											"host": [
+												"{{baseUrlApi}}"
+											],
+											"path": [
+												"location",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "63d78d81565a739802c664a6"
+												}
+											]
+										}
 									},
 									"response": []
 								},
@@ -4457,33 +4473,33 @@
 	],
 	"variable": [
 		{
-			"id": "426091a9-2975-4cc4-b82e-715e4bd8cd49",
+			"id": "6196290f-2c23-4d75-b820-f1570f0f1015",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "bb2d2eb6-a98c-4d50-be05-5e3610eb487a",
+			"id": "c5dbf43b-a704-41ff-9ea6-3c87c15f5b60",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "0028900c-604a-4937-9113-512d78d990b5",
+			"id": "6e653dce-977a-450a-9a01-4179da283a2c",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "47c5bbfd-9300-4b40-8f39-ef1782fb904b",
+			"id": "e5695ea3-c804-425f-8fb7-a4adcc87c337",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "a54e17a4-bae5-4a08-bffa-e7d4387b4fe5",
+			"id": "27253977-038a-41cc-9097-2386b23b1547",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "8033fb6d-9f7c-4645-bc8f-2eac11cd4d42",
+			"id": "77a3f4d2-e717-42ed-899b-3184fdb2e882",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
