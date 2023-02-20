@@ -1882,7 +1882,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/listings/category?category=painting&page=0&size=20",
+											"raw": "{{baseUrlApi}}/listings/category?category=HVAC&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -1893,7 +1893,7 @@
 											"query": [
 												{
 													"key": "category",
-													"value": "painting"
+													"value": "HVAC"
 												},
 												{
 													"key": "page",
@@ -4606,33 +4606,33 @@
 	],
 	"variable": [
 		{
-			"id": "3ee25f2b-0f3a-4dc9-a9f8-1f20175af4e1",
+			"id": "449b8e69-87fc-475d-84bc-e15732ba496a",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "e40bc954-8175-4bcc-bfb6-ed0761c3f5b5",
+			"id": "5de3abc6-6037-490f-8b85-c2df283893a1",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "456d208f-d07a-4b8d-b812-a3fd039d9a67",
+			"id": "254f0e89-20ee-4e56-af25-5ad50fc370cb",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "d2900420-8ffb-435e-895f-7ee014502e67",
+			"id": "46f29aac-374b-4ca0-83e4-a73af0d5c8fd",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "eb4e6206-1485-4228-b881-18983e8a724b",
+			"id": "a3d29bd1-119f-4a74-8082-d9a021e78118",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "e6df2b72-7c40-42d4-be8c-68c7242de177",
+			"id": "197dc619-a4c1-434b-953b-801585d8e0d3",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
