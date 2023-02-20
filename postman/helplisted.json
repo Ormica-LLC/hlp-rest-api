@@ -2524,7 +2524,138 @@
 										},
 										"url": "{{baseUrlApi}}/helper"
 									},
-									"response": []
+									"response": [
+										{
+											"id": "e01b9900-ccba-4cfa-88e3-68df5b8048ad",
+											"name": "helpers.createOne",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"autofillHelper\": true,\r\n\t\"autofillListing\": true,\r\n\t\"business\": \"Furnace Fixers (Bob) of Broward County\",\r\n\t\"category\": \"hvac\",\r\n\t\"content\": \"Hi I'm Bob and I'm the lead HVAC technician here at Furnace Fixers of Broward County. Here we don't just install HVAC units. We inspect them, maintain them, and service them whenever needed to keep your investmest humming along. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your new or exiting HVAC system or whether it's going to break the bank.\",\r\n\t\"email\": \"bob@furnacefixers.com\",\r\n\t\"location\": \"Miami, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\r\n\t\"tel\": 7196482913,\r\n\t\"title\": \"Best HVAC service in Broward County!\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{baseUrlApi}}/helper"
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-e3d6c61d3b71b628703a1a901d738ebd';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"5fc-Rcil60ueCsbjDFyy2STZ4mZXzjw\""
+												},
+												{
+													"key": "date",
+													"value": "Mon, 20 Feb 2023 12:57:00 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												},
+												{
+													"key": "Content-Encoding",
+													"value": "gzip"
+												},
+												{
+													"key": "Transfer-Encoding",
+													"value": "chunked"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"helper\":{\"alt\":\"furnace fixers (bob) of broward county logo\",\"autofill\":true,\"business\":\"Furnace Fixers (Bob) of Broward County\",\"category\":\"hvac\",\"email\":\"bob@furnacefixers.com\",\"images\":[],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"reviewCount\":0,\"reviewRatings\":[],\"reviews\":[],\"tel\":7196482913,\"createdAt\":\"2023-02-20T12:56:59.897Z\",\"updatedAt\":\"2023-02-20T12:56:59.897Z\",\"id\":\"63f36e1b93c577198b8d20ae\"},\"listing\":{\"alt\":\"logo for best hvac service in broward county!\",\"autofill\":true,\"category\":\"hvac\",\"content\":\"Hi I'm Bob and I'm the lead HVAC technician here at Furnace Fixers of Broward County. Here we don't just install HVAC units. We inspect them, maintain them, and service them whenever needed to keep your investmest humming along. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your new or exiting HVAC system or whether it's going to break the bank.\",\"example\":false,\"helper\":\"63f36e1b93c577198b8d20ae\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"title\":\"Best HVAC service in Broward County!\",\"createdAt\":\"2023-02-20T12:56:59.987Z\",\"updatedAt\":\"2023-02-20T12:56:59.987Z\",\"id\":\"63f36e1b93c577198b8d20b0\"}}"
+										}
+									]
 								},
 								{
 									"name": "helpers.findOneById",
@@ -4187,33 +4318,33 @@
 	],
 	"variable": [
 		{
-			"id": "8462e61c-4c31-4c36-a9d0-cf4b98338134",
+			"id": "4d63e049-cdd3-406f-8985-e3c03587cafa",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "b6b2dd0e-6305-4f3c-ad94-e8c8dad0b633",
+			"id": "4997f09c-bcdc-4faf-9064-07d95c526a00",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "ddb4122a-ff14-47e6-9dda-f95c9df899fa",
+			"id": "d3396474-dacd-4be7-8371-0a280fc259a5",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "3df2d565-ae1a-43b3-8370-f684d1e51644",
+			"id": "39fa199f-b153-4a40-8410-b95337557284",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "5928cc78-068f-425f-beba-4cc438192464",
+			"id": "be325432-b135-47a9-bc29-2439d4398ece",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "79aac540-00d9-4e32-a973-921ba10b871c",
+			"id": "498186f0-bfeb-4487-96e7-0a8acbcaec70",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
