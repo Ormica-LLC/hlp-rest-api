@@ -1211,7 +1211,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/listings/title?title=service&page=0&size=20",
+											"raw": "{{baseUrlApi}}/listings/title?page=0&size=20&title=service",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -1221,16 +1221,16 @@
 											],
 											"query": [
 												{
-													"key": "title",
-													"value": "service"
-												},
-												{
 													"key": "page",
 													"value": "0"
 												},
 												{
 													"key": "size",
 													"value": "20"
+												},
+												{
+													"key": "title",
+													"value": "service"
 												}
 											]
 										}
@@ -4119,33 +4119,33 @@
 	],
 	"variable": [
 		{
-			"id": "67797b45-8451-4483-aff4-6b36b1542d75",
+			"id": "1f7dbe94-153e-4f3b-8e29-b5805c5996ef",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "639e67f2-d619-404f-8268-6881e8c7d682",
+			"id": "0db2f892-893e-4c1d-b8ea-f685695e1871",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "90d4096a-071a-450d-8eef-91c6137866a8",
+			"id": "8ecd63b4-811f-4386-adf3-fa33736130bd",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "cf66278b-ee41-48f1-a155-a183a07459fe",
+			"id": "df790b58-3e2e-4cd4-bc4a-584e569a4bd9",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "15ff4bf5-55cb-4f48-aeb4-57a6244eb333",
+			"id": "714f6994-75a3-438c-bddc-9c6da4a28fbb",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "1b9a4c1f-a227-47e7-9eb9-c85c0a7bf185",
+			"id": "e2e7fb19-7b97-42f1-8211-2f866d8e076b",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
