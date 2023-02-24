@@ -4153,152 +4153,7 @@
 											]
 										}
 									},
-									"response": [
-										{
-											"id": "3e35d01f-a5b8-435f-92c2-97849337052f",
-											"name": "200 OK",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{baseUrlApi}}/category/:id",
-													"host": [
-														"{{baseUrlApi}}"
-													],
-													"path": [
-														"category",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "restoration"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-29a557f5885bb2665ca0ce762cde16da';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "ratelimit-limit",
-													"value": "150"
-												},
-												{
-													"key": "ratelimit-remaining",
-													"value": "144"
-												},
-												{
-													"key": "ratelimit-reset",
-													"value": "844"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "492"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"1ec-KwnzxQKDiomf+MzThxbx2DsvpsE\""
-												},
-												{
-													"key": "date",
-													"value": "Fri, 24 Feb 2023 15:38:19 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "[{\"alt\":\"restoration logo\",\"category\":\"Restoration\",\"icon\":\"WaterDamageTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7977a125-efab-45ed-fd72-fab828360b00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0216c17d-6dc3-4272-04ad-f3521862a000/hl150x150\",\"slug\":\"restoration\",\"term\":\"Restoration Specialists\",\"createdAt\":\"2023-01-30T08:50:04.414Z\",\"updatedAt\":\"2023-01-30T08:50:04.414Z\",\"id\":\"63d784bc76a10cedb8ecbd8e\"}]"
-										}
-									]
+									"response": []
 								},
 								{
 									"name": "categories.findAll",
@@ -4620,33 +4475,33 @@
 	],
 	"variable": [
 		{
-			"id": "c7727d4e-ca48-486e-af6b-297e9fee234e",
+			"id": "55c9af7e-cf81-4b7e-b479-c41ecffdfcb9",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "cfb957b4-99ae-4d89-9e8e-3f0ad1940b90",
+			"id": "78d85dcb-1172-48d5-9acd-9f79b7f9d6b3",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "11a389b1-0aae-4bcc-8e8e-8cc6144d5622",
+			"id": "aef14749-6801-45d5-9695-e3fd24b9e118",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "93dcf14d-a64b-4a1b-ae20-fcc1038699c3",
+			"id": "e3e640a7-0894-4a9b-bd4e-7cc5a355af3e",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "33dec647-21d8-4a36-aed5-c63e57bfeefe",
+			"id": "6f969d64-4835-45d0-908c-85d0bdde6cb1",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "2e2e098e-f570-4a88-838b-c5663da3fee7",
+			"id": "9a533b62-e139-4362-91c1-58103042a945",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
