@@ -4311,141 +4311,7 @@
 										"header": [],
 										"url": "{{baseUrlApi}}/categories"
 									},
-									"response": [
-										{
-											"id": "75881038-9717-405f-9e68-67a9266d91d9",
-											"name": "categories.findAll",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": "{{baseUrlApi}}/categories"
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "92"
-												},
-												{
-													"key": "date",
-													"value": "Mon, 13 Feb 2023 15:07:31 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1676300891"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-ae20befc44f8b2b3a41bf0a0141083df';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"23cb-5vjxm7B3mQsAnd45/3weiCnQt+M\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Content-Encoding",
-													"value": "gzip"
-												},
-												{
-													"key": "Transfer-Encoding",
-													"value": "chunked"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "[{\"alt\":\"cleaning services logo\",\"category\":\"cleaning\",\"icon\":\"CleaningServicesTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d5cd8d4c-48e8-4acf-a501-03fbd17ee100/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl150x150\",\"name\":\"Cleaning Svcs\",\"slug\":\"cleaning-services-help\",\"term\":\"Cleaning Services\",\"createdAt\":\"2023-01-30T08:43:21.213Z\",\"updatedAt\":\"2023-01-30T08:43:21.213Z\",\"id\":\"63d783291bbaaefa4fd94d01\"},{\"alt\":\"electrical logo\",\"category\":\"electrician\",\"icon\":\"ElectricalServicesTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d3d198cc-dc64-43c5-4196-aeafd0be5a00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/10a122f4-9d57-4e5e-9741-ae7fe543df00/hl150x150\",\"name\":\"Electrical\",\"slug\":\"electrical-help\",\"term\":\"Electricians\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d02\"},{\"alt\":\"exterminator logo\",\"category\":\"exterminator\",\"icon\":\"PestControlTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0951eece-0134-48a1-c75f-6bb410bcb400/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/bff62f8c-9eec-4784-64e2-2a8b008eb700/hl150x150\",\"name\":\"Exterminator\",\"slug\":\"exterminator-help\",\"term\":\"Exterminators\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d03\"},{\"alt\":\"flooring tile and carpet logo\",\"category\":\"flooring\",\"icon\":\"GridViewTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f2508ef3-c529-4a69-87ea-3165fc828800/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/9afffb62-a259-44db-2bb1-76c7d7bd5f00/hl150x150\",\"name\":\"Flr/Carpet/Tile\",\"slug\":\"flooring-help\",\"term\":\"Flooring, Carpet, & Tile\",\"createdAt\":\"2023-01-30T08:47:37.931Z\",\"updatedAt\":\"2023-01-30T08:47:37.931Z\",\"id\":\"63d784296fa7a0af81fa62fc\"},{\"alt\":\"hvac logo\",\"category\":\"hvac\",\"icon\":\"HvacTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0962678a-e884-49e4-9d94-5078c5b41c00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl150x150\",\"name\":\"HVAC Repair\",\"slug\":\"hvac-help\",\"term\":\"HVAC Installation & Repair\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d06\"},{\"alt\":\"handyman logo\",\"category\":\"handyman\",\"icon\":\"HandymanTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/843dce24-4b22-4ef7-73a4-4f9d5c150c00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/29193426-398c-413a-f1c2-5b48fd687100/hl150x150\",\"name\":\"Handyman\",\"slug\":\"handyman-help\",\"term\":\"Handyman Services\",\"createdAt\":\"2023-01-30T08:47:37.931Z\",\"updatedAt\":\"2023-01-30T08:47:37.931Z\",\"id\":\"63d784296fa7a0af81fa62fd\"},{\"alt\":\"interior design logo\",\"category\":\"designer\",\"icon\":\"LightTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7cbba6c1-085f-47ee-27f5-465d36651500/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d6c523f8-e0b9-474b-048f-1f00bb5ec200/hl150x150\",\"name\":\"Int. Design\",\"slug\":\"interior-design-help\",\"term\":\"Interior Designers\",\"createdAt\":\"2023-01-30T08:43:21.214Z\",\"updatedAt\":\"2023-01-30T08:43:21.214Z\",\"id\":\"63d783291bbaaefa4fd94d07\"},{\"alt\":\"landscaping logo\",\"category\":\"landscaper\",\"icon\":\"GrassTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7bf92fa0-2e83-45d1-9e39-4446d429de00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl150x150\",\"name\":\"Landscaping\",\"slug\":\"landscaping-help\",\"term\":\"Landscapers\",\"createdAt\":\"2023-01-30T08:47:37.931Z\",\"updatedAt\":\"2023-01-30T08:47:37.931Z\",\"id\":\"63d784296fa7a0af81fa62fe\"},{\"alt\":\"locksmithing logo\",\"category\":\"locksmith\",\"icon\":\"LockOpenTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c9596250-24bd-4a8c-108c-970fe03abc00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/38403ddc-6b71-4eab-7c8f-2537ecfcac00/hl150x150\",\"name\":\"Locksmithing\",\"slug\":\"locksmithing-help\",\"term\":\"Locksmiths\",\"createdAt\":\"2023-01-30T08:48:38.947Z\",\"updatedAt\":\"2023-01-30T08:48:38.947Z\",\"id\":\"63d784668b70c7bb34beb7a1\"},{\"alt\":\"moving services logo\",\"category\":\"moving\",\"icon\":\"LocalShippingTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/fd6612c2-0767-4572-fafd-38cfd3ca5800/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/213d2f72-bf7b-4b23-151e-e66747162000/hl150x150\",\"name\":\"Moving\",\"slug\":\"moving-help\",\"term\":\"Moving Services\",\"createdAt\":\"2023-01-30T08:48:38.948Z\",\"updatedAt\":\"2023-01-30T08:48:38.948Z\",\"id\":\"63d784668b70c7bb34beb7a2\"},{\"alt\":\"painting logo\",\"category\":\"painting\",\"icon\":\"FormatPaintTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/d27ae800-8c7e-4d42-c8b2-1bfe2dfab200/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/652ead01-7c44-4c64-ea57-c629dbbfe800/hl150x150\",\"name\":\"Painting\",\"slug\":\"painting-help\",\"term\":\"Painters\",\"createdAt\":\"2023-01-30T08:47:37.931Z\",\"updatedAt\":\"2023-01-30T08:47:37.931Z\",\"id\":\"63d784296fa7a0af81fa6301\"},{\"alt\":\"plumbing logo\",\"category\":\"plumbing\",\"icon\":\"PlumbingTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/cfda4d11-9163-4088-9f91-e264c6782400/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7e039555-05ba-4c42-4788-30ac241dcc00/hl150x150\",\"name\":\"Plumbing\",\"slug\":\"plumbing-help\",\"term\":\"Plumbers\",\"createdAt\":\"2023-01-30T08:47:37.931Z\",\"updatedAt\":\"2023-01-30T08:47:37.931Z\",\"id\":\"63d784296fa7a0af81fa6302\"},{\"alt\":\"pool cleaners logo\",\"category\":\"pools\",\"icon\":\"PoolTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/960d9c54-df2c-423c-e3b4-02b96d5a3400/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl150x150\",\"name\":\"Pool Cleaning\",\"slug\":\"pool-cleaning-help\",\"term\":\"Pool Cleaners\",\"createdAt\":\"2023-01-30T08:48:38.948Z\",\"updatedAt\":\"2023-01-30T08:48:38.948Z\",\"id\":\"63d784668b70c7bb34beb7a3\"},{\"alt\":\"damage restoration logo\",\"category\":\"restoration\",\"icon\":\"WaterDamageTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7977a125-efab-45ed-fd72-fab828360b00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0216c17d-6dc3-4272-04ad-f3521862a000/hl150x150\",\"name\":\"Restoration\",\"slug\":\"restoration-help\",\"term\":\"Damage Restoration Specialists\",\"createdAt\":\"2023-01-30T08:50:04.414Z\",\"updatedAt\":\"2023-01-30T08:50:04.414Z\",\"id\":\"63d784bc76a10cedb8ecbd8e\"},{\"alt\":\"roofing logo\",\"category\":\"roofing\",\"icon\":\"RoofingTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/93798675-440a-4704-f5b4-4a57002b4700/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/3016a870-db64-4c2f-5ff0-c1b85be7d400/300x300\",\"name\":\"Roofing\",\"slug\":\"roofing-help\",\"term\":\"Roofing Contractors\",\"createdAt\":\"2023-01-30T08:50:04.414Z\",\"updatedAt\":\"2023-01-30T08:50:04.414Z\",\"id\":\"63d784bc76a10cedb8ecbd8f\"},{\"alt\":\"scrap and junk removal logo\",\"category\":\"hauling\",\"icon\":\"DeleteOutlineTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/bafbf906-191d-406b-cf0c-55e3a8dcd900/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0b2dd3f7-a0ff-4fb0-7315-37e1a298f800/hl150x150\",\"name\":\"Scrap Removal\",\"slug\":\"scrapping-help\",\"term\":\"Scrap & Junk Removal Services\",\"createdAt\":\"2023-01-30T08:48:38.948Z\",\"updatedAt\":\"2023-01-30T08:48:38.948Z\",\"id\":\"63d784668b70c7bb34beb7a6\"},{\"alt\":\"security and smart home logo\",\"category\":\"security\",\"icon\":\"HomeMiniTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7baaa986-9a36-4bcf-f94c-09e871fcba00/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl150x150\",\"name\":\"Smart Home\",\"slug\":\"security-smart-home-help\",\"term\":\"Security & Smart Home Installers\",\"createdAt\":\"2023-01-30T08:48:38.948Z\",\"updatedAt\":\"2023-01-30T08:48:38.948Z\",\"id\":\"63d784668b70c7bb34beb7a7\"},{\"alt\":\"windows & doors logo\",\"category\":\"glass\",\"icon\":\"SensorWindowTwoTone\",\"image\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1fcb6503-81b0-4867-509a-149321246700/660x440\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/0ea94249-40ef-4a81-78c5-748f3554d300/hl150x150\",\"name\":\"Window/Door\",\"slug\":\"windows-doors-help\",\"term\":\"Window & Door Installers\",\"createdAt\":\"2023-01-30T08:50:04.415Z\",\"updatedAt\":\"2023-01-30T08:50:04.415Z\",\"id\":\"63d784bc76a10cedb8ecbd90\"}]"
-										}
-									]
+									"response": []
 								}
 							],
 							"id": "7f300002-bc33-4902-910e-2496956a8a09"
@@ -4620,33 +4486,33 @@
 	],
 	"variable": [
 		{
-			"id": "c0bb9511-ddcb-4a8e-96ec-243dae7a2105",
+			"id": "1eb435f6-4e8a-4ad4-826c-704011690fb8",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "1dea1392-a458-4e94-a0b0-6e2c5c23b068",
+			"id": "160eaaf7-427a-4bed-b050-eff9d41ed1ba",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "3187722e-3415-4aac-9605-b9fd7960755a",
+			"id": "a5f17603-7823-498d-9bce-a579c8c19845",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "44413960-fd41-4f1f-b974-14b51e15de72",
+			"id": "a698b1e2-9271-4490-9802-0075cc641cc8",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "91c3ac12-e2e6-4ecc-9a4b-8aba87e66ee8",
+			"id": "fdf96de0-7755-4ad8-99f2-a07cb1894ded",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "fe9f4027-33e8-4448-b616-f4e0617a357c",
+			"id": "14ccae4f-435d-4073-a85c-4d0c7500ac3a",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
