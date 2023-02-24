@@ -4448,14 +4448,15 @@
 									]
 								},
 								{
-									"name": "New Request",
+									"name": "categories.findAllSelective",
 									"id": "f57cbb45-6f19-4236-b662-b51ed5748277",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
 									"request": {
 										"method": "GET",
-										"header": []
+										"header": [],
+										"url": "{{baseUrlApi}}/categories/selective"
 									},
 									"response": []
 								}
@@ -4632,33 +4633,33 @@
 	],
 	"variable": [
 		{
-			"id": "1b6e65f1-8d30-48aa-bdae-6ff3e7a63f7d",
+			"id": "72f3a41e-d523-4d5f-9740-8c6918d8924c",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "809d3642-16d7-4813-ae3b-d0eecc7f3a6d",
+			"id": "1f8e4ee5-c851-42cb-b074-ff992b3faa2e",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "e5c89428-bc80-449b-bedd-9acca3424ad1",
+			"id": "b67b9d40-e32a-4a2c-b6e9-e2bdb0410063",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "fc699d84-a04f-4eb3-a000-7143f431838a",
+			"id": "176572e6-6bfe-490c-bf71-66c40f2de803",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "40ec2685-a7e3-4176-ad95-c34ed27aca7b",
+			"id": "8f1e4974-edfb-4c4e-b15e-5f953c7b17a8",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "15b52ce2-2215-4351-8ac4-3ea3356d9edd",
+			"id": "fcabb0fc-72c8-4dec-a09f-553b982ffd6b",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
