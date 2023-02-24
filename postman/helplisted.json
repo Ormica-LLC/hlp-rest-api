@@ -864,179 +864,6 @@
 							"name": "Location",
 							"item": [
 								{
-									"name": "locations.findOneById",
-									"id": "e48d2cf3-3d5f-4c4a-a0f7-126d41ed879f",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{baseUrlApi}}/location/:id",
-											"host": [
-												"{{baseUrlApi}}"
-											],
-											"path": [
-												"location",
-												":id"
-											],
-											"variable": [
-												{
-													"key": "id",
-													"value": "63d78d81565a739802c664a6"
-												}
-											]
-										}
-									},
-									"response": [
-										{
-											"id": "49b0e76e-f704-4c83-88df-d34ab271bbeb",
-											"name": "200 OK",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{baseUrlApi}}/location/:id",
-													"host": [
-														"{{baseUrlApi}}"
-													],
-													"path": [
-														"location",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "63d78d81565a739802c664a6"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-a18901f0e11c1e658c7541f9a226035f';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "ratelimit-limit",
-													"value": "150"
-												},
-												{
-													"key": "ratelimit-remaining",
-													"value": "147"
-												},
-												{
-													"key": "ratelimit-reset",
-													"value": "864"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "530"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"212-89QqAQis48vlxnnCcln+Vzi638w\""
-												},
-												{
-													"key": "date",
-													"value": "Mon, 20 Feb 2023 19:38:42 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"_id\":\"63d78d81565a739802c664a6\",\"abbreviation\":\"AK\",\"cities\":[{\"city\":\"Anchorage\",\"partOf\":\"AK\",\"slug\":\"alaska/anchorage\",\"_id\":\"63d78d81565a739802c664a7\"},{\"city\":\"Fairbanks\",\"partOf\":\"AK\",\"slug\":\"alaska/fairbanks\",\"_id\":\"63d78d81565a739802c664a8\"},{\"city\":\"Juneau\",\"partOf\":\"AK\",\"slug\":\"alaska/juneau\",\"_id\":\"63d78d81565a739802c664a9\"},{\"city\":\"Kenai\",\"partOf\":\"AK\",\"slug\":\"alaska/kenai\",\"_id\":\"63d78d81565a739802c664aa\"}],\"state\":\"Alaska\",\"createdAt\":\"2023-01-30T09:27:29.555Z\",\"updatedAt\":\"2023-01-30T09:27:29.555Z\",\"__v\":0}"
-										}
-									]
-								},
-								{
 									"name": "locations.findAll",
 									"id": "9b097aa1-4975-421a-ac95-93dacb320dde",
 									"protocolProfileBehavior": {
@@ -4620,33 +4447,33 @@
 	],
 	"variable": [
 		{
-			"id": "1b5a7eb7-c940-4e12-ad32-b659809f8508",
+			"id": "307b786f-629d-4cdc-9243-48da23c4da83",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "088c052d-e42f-404b-ad5c-ebe28022a8f7",
+			"id": "60dda12e-2c83-486c-a3b6-395125b5d0e4",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "278328f9-da93-46d5-b2b0-77db6453671b",
+			"id": "fb65b102-37e4-4505-8596-2322b2de581c",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "41c05641-fa10-4b0d-bbe2-2630cd63cd02",
+			"id": "9bba6699-72b0-4d6e-a625-a45a1c5a46ab",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "95c65480-b21a-4499-be51-4b92767c9060",
+			"id": "13de8101-1e89-460a-98dc-d6eafaf9e68e",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "4431d17f-5cef-40b0-8dff-f6cfd7022289",
+			"id": "df8f8b64-ec00-4898-95e5-1ee974497cc6",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
