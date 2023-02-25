@@ -2633,11 +2633,11 @@
 										"disableBodyPruning": true
 									},
 									"request": {
-										"method": "PUT",
+										"method": "PATCH",
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n\t\"location\": \"Montgomery, AL\"\r\n}",
+											"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2667,7 +2667,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63209b85b196121f1443b78b"
+													"value": "63f86cc8edf52f3ca7566c82"
 												}
 											]
 										}
@@ -4647,33 +4647,33 @@
 	],
 	"variable": [
 		{
-			"id": "e27af571-a2f8-4376-acb5-e1964b37f4be",
+			"id": "6e51d332-5dd6-4dde-82fc-a114a71c3bb5",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "f5209834-da76-4034-b28c-4628f36f526d",
+			"id": "5c98fd6c-e749-4da2-ab06-d9d56b7b5bc7",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "9a01937a-fc15-4fd4-bfa2-e88ff56e9867",
+			"id": "9c6067c6-508e-481f-b5f0-dcbb372f9ccb",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "7235f264-6511-4126-9dcb-0d6b64b0dffe",
+			"id": "1a2bd1be-6c08-4807-8380-c1d90116143a",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "107efe2b-6836-435f-94f1-770427e13538",
+			"id": "c4396e96-37ef-4b6c-9179-5b6428f7db49",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "9289eef1-1398-4104-8333-b59bd79add7b",
+			"id": "245a48a3-26f1-4b80-93c5-9435f58d4e05",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
