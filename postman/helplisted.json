@@ -4789,7 +4789,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9d9c6ca8-0219-4e05-bd10-a19570a0ef21",
+				"id": "232b8848-a5fd-402f-b2d9-dd36bb3762c4",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -4799,7 +4799,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5eb24a24-9316-44fd-909c-df241ef1a3a2",
+				"id": "f49ec871-bc48-4059-a998-05a3c1cafca1",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -4809,35 +4809,30 @@
 	],
 	"variable": [
 		{
-			"id": "3a44a00e-48c4-4e73-aac4-2914b3d6fb4f",
+			"id": "c1d41b98-7aa4-4717-b8ec-7d3efc44c078",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "9b007ba5-a778-4bf9-a719-40ab07831fcb",
+			"id": "981fcc41-f20b-4880-b3a3-fb1e841d3351",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "e3a2c04d-c12a-408c-a945-531f25839b5c",
+			"id": "f5735385-9897-443d-8c60-159d6dfdd736",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "e9e68c97-4fd7-45ff-989e-f74269b74a7c",
+			"id": "7b2a6655-b6a2-4744-9dcf-bb4c65fec306",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "a6e3f9a9-8a9c-4537-9037-480124075d02",
+			"id": "c1647f9e-32a6-4a31-ab3d-15cd7c392eb3",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
-		},
-		{
-			"id": "8539577f-5250-4f3c-8a8e-e184ee2fb5ed",
-			"key": "altBaseUrl",
-			"value": "http://172.29.161.17:3000"
 		}
 	]
 }
