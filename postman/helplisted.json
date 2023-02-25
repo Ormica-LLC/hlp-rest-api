@@ -2080,19 +2080,18 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{altBaseUrl}}/api/listings/location?location=Okaloosa%2C%20FL&page=0&size=20",
+											"raw": "{{baseUrlApi}}/listings/location?location=Miami%2C%20FL&page=0&size=20",
 											"host": [
-												"{{altBaseUrl}}"
+												"{{baseUrlApi}}"
 											],
 											"path": [
-												"api",
 												"listings",
 												"location"
 											],
 											"query": [
 												{
 													"key": "location",
-													"value": "Okaloosa%2C%20FL"
+													"value": "Miami%2C%20FL"
 												},
 												{
 													"key": "page",
@@ -4662,33 +4661,33 @@
 	],
 	"variable": [
 		{
-			"id": "d461805d-e782-4287-a9bf-68130e81ad74",
+			"id": "0ac33d88-a8b7-4f61-a560-c7c049fb2f7d",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "3bdc8c75-9dc2-497c-92cc-b216f13601f2",
+			"id": "91b68278-5234-4e56-aa8a-712f532c27ed",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "fda4ef1c-867b-4919-9190-175d05721740",
+			"id": "fe799e26-4b0d-46ad-a9a8-95cc5b306499",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "209fff26-9864-419a-bfff-e8dd2a5fcfb6",
+			"id": "c0570b30-bfe6-47c6-b019-a04624c98b4a",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "6ad870dd-e5e0-4b37-9e7d-f4fba385a6ac",
+			"id": "2cc041cb-edee-4de5-903b-8937d5ccbc8f",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "9e5c663b-ac16-4317-b12e-46b7de1de3bd",
+			"id": "4f435537-3e93-40a8-acae-f3a11be2f1a6",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
