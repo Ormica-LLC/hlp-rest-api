@@ -2838,7 +2838,152 @@
 										"method": "GET",
 										"header": []
 									},
-									"response": []
+									"response": [
+										{
+											"id": "aae20b9d-508c-4440-b8e7-e214f4388e57",
+											"name": "listings.deleteOne",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63f9bbcb9a3db09a5497cb6f"
+														}
+													]
+												}
+											},
+											"status": "Accepted",
+											"code": 202,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-28988133cf71ae81a14279dada6be9f2';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "147"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "415"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "47"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"2f-bAxJddos4tS59SGcDorzQZ69cUc\""
+												},
+												{
+													"key": "date",
+													"value": "Sat, 25 Feb 2023 07:46:24 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Listing was deleted successfully!\"}"
+										}
+									]
 								}
 							],
 							"id": "557a6028-d42c-43b4-b3a2-0bdac8143c51"
@@ -4648,33 +4793,33 @@
 	],
 	"variable": [
 		{
-			"id": "fb5a013f-4596-408d-95d8-58f96d7b00e4",
+			"id": "5b7f6bd5-f1f3-417e-b2da-4a755671bd80",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "a18fd9b4-4ff6-400d-9ce8-f1b0e43263d4",
+			"id": "993174fd-6fee-4357-9a79-23376b369295",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "9dafcf79-8252-4b49-9c95-7736ad5be522",
+			"id": "1b46dd56-d51d-4dcf-9301-d4fb34582f91",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "f330de85-21b8-4c72-803a-1fbc927db37f",
+			"id": "0ee2d894-26aa-4d82-a08a-247b759cdf00",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "9b0780d7-e0c4-46d7-b3b7-33662d7f1f09",
+			"id": "905a5546-e390-494c-a998-2e7eb268b601",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "9e2b6fcd-3633-48e2-8b23-a0c276be1462",
+			"id": "15b50269-68c0-4192-a274-1b75729aa0e5",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
