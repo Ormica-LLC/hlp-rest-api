@@ -2640,14 +2640,11 @@
 											}
 										},
 										"url": {
-											"raw": "http://localhost:3000/api/listing/:id",
-											"protocol": "http",
+											"raw": "{{baseUrlApi}}/listing/:id",
 											"host": [
-												"localhost"
+												"{{baseUrlApi}}"
 											],
-											"port": "3000",
 											"path": [
-												"api",
 												"listing",
 												":id"
 											],
@@ -2662,7 +2659,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63f86cc8edf52f3ca7566c82"
+													"value": null
 												}
 											]
 										}
@@ -4654,33 +4651,33 @@
 	],
 	"variable": [
 		{
-			"id": "3621976c-f7a4-472f-b915-2e6a8411252b",
+			"id": "2edf6a2a-631a-4e7c-833a-0c5f7590befc",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "d82ef9b3-9f82-433e-9d3f-71b6c12b51ff",
+			"id": "f18db09a-7176-4ee6-82e3-94ec038592d1",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "fca1ea15-56ad-4778-8361-caf9d0bcbdc4",
+			"id": "8521bab6-c2fb-443a-9477-c2fc452e827a",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "09fdbee1-b86a-4418-9519-b1003aff68aa",
+			"id": "4105d7b1-363b-4aff-8e34-dde350ca4454",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "8e959fc0-3b2e-429e-ba29-0a5c4d1f4cf9",
+			"id": "f04be8a8-bc40-42bd-ad61-c6dbd4461b9b",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "9e075e89-bf7b-4533-9eac-ecd7e2c53b6f",
+			"id": "e6f5c348-4be3-4c1e-81dc-3d7507254967",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
