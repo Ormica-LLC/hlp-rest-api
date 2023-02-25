@@ -2474,20 +2474,18 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{altBaseUrl}}/api/listings/published?published=true&page=0&size=20",
+											"raw": "{{baseUrlApi}}/listings/published?published=true&page=0&size=20",
 											"host": [
-												"{{altBaseUrl}}"
+												"{{baseUrlApi}}"
 											],
 											"path": [
-												"api",
 												"listings",
 												"published"
 											],
 											"query": [
 												{
 													"key": "published",
-													"value": "true",
-													"type": "text"
+													"value": "true"
 												},
 												{
 													"key": "page",
@@ -4661,33 +4659,33 @@
 	],
 	"variable": [
 		{
-			"id": "0ac33d88-a8b7-4f61-a560-c7c049fb2f7d",
+			"id": "58ff2d24-2e76-4f43-a5e8-685e33b9f3fe",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "91b68278-5234-4e56-aa8a-712f532c27ed",
+			"id": "655d089f-2b0f-4157-8b33-73aae167cbb2",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "fe799e26-4b0d-46ad-a9a8-95cc5b306499",
+			"id": "0e8d276f-30e2-48fb-a734-638dc220c052",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "c0570b30-bfe6-47c6-b019-a04624c98b4a",
+			"id": "f8aa6242-6c6d-4aa9-88ba-8856a5505013",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "2cc041cb-edee-4de5-903b-8937d5ccbc8f",
+			"id": "49a42b9b-c29f-4ebc-8190-1f4b50fda272",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "4f435537-3e93-40a8-acae-f3a11be2f1a6",
+			"id": "7d3a2b2b-a11b-40d6-a38a-5a6d752b1e42",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
