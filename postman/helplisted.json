@@ -2674,153 +2674,6 @@
 									},
 									"response": [
 										{
-											"id": "5ca6551f-a4b5-4392-8f79-9ebb04a8f573",
-											"name": "response.data",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "http://localhost:3000/api/helper/:id",
-													"protocol": "http",
-													"host": [
-														"localhost"
-													],
-													"port": "3000",
-													"path": [
-														"api",
-														"helper",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "630f851b8259717f17c00ff4"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "98"
-												},
-												{
-													"key": "date",
-													"value": "Wed, 31 Aug 2022 17:49:15 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1661968981"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'none';form-action 'none';frame-ancestors 'none'"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "expect-ct",
-													"value": "max-age=2592000, enforce, report-uri=\"https://helplisted.report-uri.com/r/d/ct/enforce\""
-												},
-												{
-													"key": "x-frame-options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "by-content-type"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "strict-origin-when-cross-origin,no-referrer"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "468"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"1d4-uWswW8DB9LnU8F8iYq1IrZ1zIt0\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Vary",
-													"value": "Accept-Encoding"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"listings\":[],\"alt\":\"adkins pro logo\",\"category\":\"restoration\",\"email\":\"algavig@san.gr\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/f8f089b9-2899-4b06-8c6a-da5975900300/1200x675\"],\"location\":\"Tallahassee, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/27db3383-9add-497b-5d28-bfed0070e100/hl300x200\",\"name\":\"Adkins Pro\",\"reviewCount\":0,\"reviews\":[],\"tel\":2209064689,\"updatedAt\":\"2022-08-31T17:48:51.388Z\",\"id\":\"630f851b8259717f17c00ff4\"}"
-										},
-										{
 											"id": "731009b2-4b71-4dbf-95d2-e7f52f2b66be",
 											"name": "listings.updateOne",
 											"originalRequest": {
@@ -4794,33 +4647,33 @@
 	],
 	"variable": [
 		{
-			"id": "41117883-23a2-42de-84da-dabfa7753abc",
+			"id": "83680fcf-d67e-4d6e-8537-787d9784f321",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "841b9717-2f77-4a26-a335-1308081004d6",
+			"id": "d0e662bd-66de-4b7a-bbea-e895e1ee0cfa",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "5c7701da-e5fb-4413-ad4a-92731d64824d",
+			"id": "d0c5fac5-917f-4ccd-93f7-35cf2d13d175",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "44df2ce6-60b7-4353-a6af-ed7492b0a0a9",
+			"id": "b3398dd7-85d9-4045-9734-77c0d602683e",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "97dbbceb-de0c-453a-830a-15ccc0a8c81e",
+			"id": "7bcfaeaf-a075-490e-9cb1-c5f78387fa5d",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "ba581f78-6a26-480a-ae67-73df342e384b",
+			"id": "3078b2dc-b46a-43a9-8427-0a8f49aa915d",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
