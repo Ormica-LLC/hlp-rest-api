@@ -2828,6 +2828,167 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"message\":\"Listing was updated successfully.\"}"
+										},
+										{
+											"id": "84a30992-3a71-491e-ac85-2e5c7857c715",
+											"name": "listings.updateOne",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"query": [
+														{
+															"key": "",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63f9bbcb9a3db09a5497cb6f"
+														}
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-ccf38a15204038dc3484701f5bdd63d0';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "148"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "496"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "47"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"2f-/2ulJWed1FN6oKP6i2YUsIqZz8c\""
+												},
+												{
+													"key": "date",
+													"value": "Sat, 25 Feb 2023 07:45:03 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Listing was updated successfully.\"}"
 										}
 									]
 								},
@@ -4651,33 +4812,33 @@
 	],
 	"variable": [
 		{
-			"id": "2edf6a2a-631a-4e7c-833a-0c5f7590befc",
+			"id": "61d7ca12-6119-4401-95c2-4a1995026d42",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "f18db09a-7176-4ee6-82e3-94ec038592d1",
+			"id": "65e78ffd-e9d7-4185-b42a-b64cce0b0097",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "8521bab6-c2fb-443a-9477-c2fc452e827a",
+			"id": "8e075fb5-cb99-4ebe-9266-87cd53b16dbb",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "4105d7b1-363b-4aff-8e34-dde350ca4454",
+			"id": "08bebe68-81ec-4c5e-9aa9-b04cfcef59f9",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "f04be8a8-bc40-42bd-ad61-c6dbd4461b9b",
+			"id": "5e17e710-63c4-4320-9c7e-8c8823e4ef0a",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "e6f5c348-4be3-4c1e-81dc-3d7507254967",
+			"id": "eaf00cb8-7743-4256-b54a-68168e236e78",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
