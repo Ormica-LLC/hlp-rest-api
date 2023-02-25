@@ -1038,144 +1038,6 @@
 									},
 									"response": [
 										{
-											"id": "bad11d17-571c-4cef-8f3f-b55b9bc30999",
-											"name": "500 Error",
-											"originalRequest": {
-												"method": "POST",
-												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"Landscaping\",\r\n\t\"content\": \"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\r\n\t\"helper\": \"63ee6a09de56ce7b3403b9c6\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\r\n\t\"title\": \"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\"\r\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
-												"url": "{{baseUrlApi}}/listing"
-											},
-											"status": "Internal Server Error",
-											"code": 500,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-c9adba59c80d9ba77e34c5e515d0822e';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "ratelimit-limit",
-													"value": "150"
-												},
-												{
-													"key": "ratelimit-remaining",
-													"value": "142"
-												},
-												{
-													"key": "ratelimit-reset",
-													"value": "171"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "59"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"3b-G3AGQ+Rlwwi5xS07bVmj1UJfSnI\""
-												},
-												{
-													"key": "date",
-													"value": "Mon, 20 Feb 2023 18:45:52 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"message\":\"Something went wrong; please try a bit later.\"}"
-										},
-										{
 											"id": "ffbb9b1f-ccc2-421b-b638-9e64fac1f0e1",
 											"name": "201 Created",
 											"originalRequest": {
@@ -1316,6 +1178,144 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"alt\":\"logo for michael's mowing: professional lawn care at an affordable price!!!\",\"autofill\":true,\"category\":\"Landscaping\",\"content\":\"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\"example\":false,\"location\":\"Okaloosa, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"title\":\"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\",\"createdAt\":\"2023-02-25T07:42:04.116Z\",\"updatedAt\":\"2023-02-25T07:42:04.116Z\",\"id\":\"63f9bbcb9a3db09a5497cb6f\"}"
+										},
+										{
+											"id": "bad11d17-571c-4cef-8f3f-b55b9bc30999",
+											"name": "500 Error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"Landscaping\",\r\n\t\"content\": \"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\r\n\t\"helper\": \"63ee6a09de56ce7b3403b9c6\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\r\n\t\"title\": \"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{baseUrlApi}}/listing"
+											},
+											"status": "Internal Server Error",
+											"code": 500,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-c9adba59c80d9ba77e34c5e515d0822e';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "142"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "171"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "59"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"3b-G3AGQ+Rlwwi5xS07bVmj1UJfSnI\""
+												},
+												{
+													"key": "date",
+													"value": "Mon, 20 Feb 2023 18:45:52 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Something went wrong; please try a bit later.\"}"
 										}
 									]
 								},
@@ -2833,6 +2833,18 @@
 											"body": "{\"message\":\"Listing was updated successfully.\"}"
 										}
 									]
+								},
+								{
+									"name": "New Request",
+									"id": "2b69ee13-c3fd-45f7-a93e-01a1d8e9ea66",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": []
+									},
+									"response": []
 								}
 							],
 							"id": "557a6028-d42c-43b4-b3a2-0bdac8143c51"
@@ -4642,33 +4654,33 @@
 	],
 	"variable": [
 		{
-			"id": "2c8779ee-407e-40a5-bd9c-b7491481d4c6",
+			"id": "5ef2ecf9-1fc4-4fc7-9e7d-abee389c6544",
 			"key": "X_API_KEY_ENV",
 			"value": "PMAK-630f9b4f6c1b21498aa0e2b7-4d488394c81bbf90cc77ee49605d456e42",
 			"type": "string"
 		},
 		{
-			"id": "58849c6e-c160-4ec6-a456-93e6a1ffdcee",
+			"id": "74c26c43-007b-42e1-a0e0-4ea97e2eed3e",
 			"key": "CLOUDFLARE_ACCT_IDENTIFIER",
 			"value": "0bd17ac0f17fd7b40e8066ce207d1ac0"
 		},
 		{
-			"id": "be15e404-6138-4aea-b135-dc73449dce2f",
+			"id": "71a22639-5706-4102-94e9-440edaef12d7",
 			"key": "CF_BEARER_TOKEN",
 			"value": "3Hcj1UoWSulamsbafWQ5qT3I_UjGsILbChgzd_Jk"
 		},
 		{
-			"id": "7ddb54c7-dadd-444e-b91f-3924d111ef5f",
+			"id": "dd385cf8-e02d-4166-bb38-2c644a90ff58",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "d13e680d-1aee-4ea9-b49b-f96c2915c557",
+			"id": "9009e2f9-ff0c-4977-979e-19e4ff7de358",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		},
 		{
-			"id": "79c3af54-4d0a-44c5-84d4-798bf6dbbcbc",
+			"id": "2c2c91ea-e016-4556-806e-573b1769f8f2",
 			"key": "altBaseUrl",
 			"value": "http://172.29.161.17:3000"
 		}
