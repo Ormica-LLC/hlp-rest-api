@@ -1506,7 +1506,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/listings/title?page=0&size=20&title=service",
+											"raw": "{{baseUrlApi}}/listings/title?title=service&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -1516,16 +1516,16 @@
 											],
 											"query": [
 												{
+													"key": "title",
+													"value": "service"
+												},
+												{
 													"key": "page",
 													"value": "0"
 												},
 												{
 													"key": "size",
 													"value": "20"
-												},
-												{
-													"key": "title",
-													"value": "service"
 												}
 											]
 										}
@@ -4794,12 +4794,12 @@
 	],
 	"variable": [
 		{
-			"id": "fb11d75e-6c2c-4eec-ad1a-9100e184c9e0",
+			"id": "da25466a-b75b-4c71-b874-9aa62c4bfac7",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "7518aac3-bb27-4847-8ff2-1e5444fdbefd",
+			"id": "692b4cd4-2e21-4974-a66c-d5b305d9ab6a",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
