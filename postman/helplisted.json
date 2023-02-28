@@ -3512,7 +3512,7 @@
 										},
 										{
 											"id": "14aea5f8-413c-4cf4-971f-678a5555456d",
-											"name": "404 Not Found",
+											"name": "helpers.findOneByEmail",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5362,12 +5362,12 @@
 	],
 	"variable": [
 		{
-			"id": "6eba8c15-74ce-43f5-937f-a7c25522cce6",
+			"id": "241381d3-fa31-4658-ba78-7f2ae8599b9c",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "5f0fb7dd-3312-4ca5-b72b-cc85a5637322",
+			"id": "75b78966-0a10-4381-a96e-b0b6fbdc244b",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
