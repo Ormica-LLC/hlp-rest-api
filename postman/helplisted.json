@@ -2618,89 +2618,35 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"totalItems\":21,\"listings\":[{\"alt\":\"logo for michael's mowing: professional lawn care at an affordable price!!!\",\"autofill\":true,\"category\":\"landscaping\",\"content\":\"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\"example\":false,\"helper\":\"63f86cc8edf52f3ca7566c80\",\"location\":\"Okaloosa%2C%20FL\",\"published\":true,\"thumbnail\":\"\",\"title\":\"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\",\"createdAt\":\"2023-02-24T07:52:40.611Z\",\"updatedAt\":\"2023-02-25T07:28:55.687Z\",\"id\":\"63f86cc8edf52f3ca7566c82\"},{\"alt\":\"logo for best hvac service in broward county!\",\"autofill\":true,\"category\":\"HVAC\",\"content\":\"Hi I'm Bob and I'm the lead HVAC technician here at Furnace Fixers of Broward County. Here we don't just install HVAC units. We inspect them, maintain them, and service them whenever needed to keep your investmest humming along. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your new or exiting HVAC system or whether it's going to break the bank.\",\"example\":false,\"helper\":\"63f36e1b93c577198b8d20ae\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"title\":\"Best HVAC service in Broward County!\",\"createdAt\":\"2023-02-20T12:56:59.987Z\",\"updatedAt\":\"2023-02-20T12:56:59.987Z\",\"id\":\"63f36e1b93c577198b8d20b0\"},{\"alt\":\"logo for best hvac service in broward county!\",\"autofill\":true,\"category\":\"HVAC\",\"content\":\"Hi I'm Benny and I'm the lead HVAC technician here at Furnace Fixers of Broward County. Here we don't just install HVAC units. We inspect them, maintain them, and service them whenever needed to keep your investmest humming along. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your new or exiting HVAC system or whether it's going to break the bank.\",\"example\":false,\"helper\":\"63f36e0793c577198b8d20aa\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"title\":\"Best HVAC service in Broward County!\",\"createdAt\":\"2023-02-20T12:56:39.234Z\",\"updatedAt\":\"2023-02-20T12:56:39.234Z\",\"id\":\"63f36e0793c577198b8d20ac\"},{\"autofill\":true,\"alt\":\"logo for pridal services: residential & commercial painters\",\"category\":\"Painting\",\"content\":\"Welcome to Pridal Services, a top choice for high-quality painting services in the regional area. Our professional painters love their craft and strive to achieve perfection in all painting jobs they attend. Since our inception in 2001, we have won multiple awards and recognitions for our painting services. We take great pride in being a family-owned and operated business that works hard to change the lives of our clients by helping them achieve their dream homes. At Pridal, we believe that a paint job done right adds more than just style – it also adds personality and soul, reinforcing your home's ambiance and property value. Our painters are dedicated to detail such that it could be mistaken for art once you see the final result. Our professional painters have also won many awards for their remarkable painting services. Whether applying a colorful update to a bathroom or revitalizing the complete exterior of your home, our painters will meet and exceed your wishes and expectations\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42c\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/31789af4-cc1b-4273-b54b-0d3f9cb0af00/hl150x150\",\"title\":\"Residential & Commercial Painting Services\",\"createdAt\":\"2023-01-27T12:07:05.680Z\",\"updatedAt\":\"2023-01-27T12:07:05.680Z\",\"id\":\"63d3be69ac28cee8de6220d4\"},{\"autofill\":true,\"alt\":\"logo for maid 2 clean\",\"category\":\"Cleaning\",\"content\":\"Not your average cleaning company! We were born to clean. We're just wired that way. There's nothing we like better than getting stuck into a dirty home and making it sparkle again. We love what we do so much that we revolutionized how you book your house cleaning appointments. We were the first local company to introduce a high-tech online booking platform, so we know what we're doing and we're always looking to improve.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f423\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/92543cad-32be-4092-131b-56ad7f411f00/hl150x150\",\"title\":\"Maid 2 Clean\",\"createdAt\":\"2023-01-27T12:06:11.096Z\",\"updatedAt\":\"2023-01-27T12:06:11.096Z\",\"id\":\"63d3be33ac28cee8de621f7d\"},{\"autofill\":true,\"alt\":\"logo for sister margaret's pool service\",\"category\":\"Pool Services\",\"content\":\"Sister Margaret's Pool Service has been operating continually for 28 years. We offer a diverse and sundry scope of services. Our inventory is stocked with every piece of equipment imaginable to keep your collection sparkling and humming as you would expect after such a significant investment. We are equally comfortable supplying and installing pumps and filters as we convert pools to salt water using revolutionary self-cleaning cell technology. During the winter, we typically perform acid washing service, which has become the de facto standard to revitalize those pools where their surfaces have become dull such that a regular pool clean cannot. We look forward to doing our best for you and hope our working relationship continues whenever you require our services.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42b\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f9520ea0-f4c5-4ae2-dd02-67a260241700/hl150x150\",\"title\":\"Sister Margaret's Pool Service\",\"createdAt\":\"2023-01-27T12:04:31.918Z\",\"updatedAt\":\"2023-01-27T12:04:31.918Z\",\"id\":\"63d3bdcfac28cee8de621f7b\"},{\"autofill\":true,\"alt\":\"logo for big hammer roofing\",\"category\":\"Roofing\",\"content\":\"At Big Hammer Roofing, we specialize in high-end architecturally designed homes and stainless steel fabrications, such as commercial and residential outdoor kitchens and alfresco areas. We have a large team of qualified roofers to complete our installations. We offer speedy turnaround times to cover projects quickly and on time. Contact us today!\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42f\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/12a45648-782b-471e-8140-481560bbda00/hl150x150\",\"title\":\"The area's leading supplier of high-end architecturally designed homes and stainless steel fabrications\",\"createdAt\":\"2023-01-27T12:04:06.615Z\",\"updatedAt\":\"2023-01-27T12:04:06.615Z\",\"id\":\"63d3bdb6ac28cee8de621f79\"},{\"autofill\":true,\"alt\":\"logo for scrappy's hauling\",\"category\":\"Scrap Removal\",\"content\":\"Scrappy's will send a pickup crew out, and they will come to your home, business, worksite, factory, office, or wherever you need us. We will gather all your junk into the vehicle we arrived in and haul it back to our staging area to sort, recycle and dispose of responsibly. Our pickup crews are strong, fast, and reliable; they are the best at what they do, which is lifting, moving, and clearing junk and garbage from your home or business. We always dispatch at least two bodies to accomplish every work order, so you don't have to lift a finger. We accept all varieties of junk, from general household rubbish to construction materials, business junk, and e-waste. We take it all and practice responsible recycling - we sort and recycle your trash and debris to minimize landfill impact. In addition to being environmentally conscious, Scrappy's also employs long-term unemployed or previously homeless individuals to re-introduce them back to steady work and employment opportunities.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f430\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/4e56bda3-364f-405d-4a08-25611eb0be00/hl150x150\",\"title\":\"Household Rubbish, Business Junk, & E-Waste\",\"createdAt\":\"2023-01-27T12:03:37.242Z\",\"updatedAt\":\"2023-01-27T12:03:37.242Z\",\"id\":\"63d3bd99ac28cee8de621f77\"},{\"autofill\":true,\"alt\":\"logo for sparky's electrical\",\"category\":\"Electrical\",\"content\":\"From Sparky's Electrical, Bill is your honest and reliable local electrician. He and his team believe in good old-fashioned service, aiming to provide the best quality electrical services combined with an exceptional customer experience. The team at Sparky' will always complete any work when it is most convenient for you. They will also ensure minimum disruption and that all areas are left clean and tidy afterward. Bill will come to your home and provide a free, no-obligation quote. He is upfront about any costs involved, so you can rest assured that there will never be additional charges or hidden fees. Plus, his team is always available for aftermarket advice and support. All electricians are always on hand to answer questions with straightforward and no-nonsense advice. At Sparky's, Bill only employs A-grade electricians. This means you can be confident that you are always getting a highly qualified professional when a Sparky team member comes to your home.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f425\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f9670fbb-5b11-418f-24d2-3cd9890b0300/hl150x150\",\"title\":\"Sparky's Electrical\",\"createdAt\":\"2023-01-27T12:02:55.521Z\",\"updatedAt\":\"2023-01-27T12:02:55.521Z\",\"id\":\"63d3bd6fac28cee8de621f75\"},{\"autofill\":true,\"alt\":\"logo for interior by design\",\"category\":\"Interior Design\",\"content\":\"Interior by Design was created to serve a luxury niche in the Upper East Side and Soho nabes of the Manhattan housing market. Our vision is to offer a personalized boutique service and build quality homes at exceptional prices. Today, we are proud to have evolved into one of the largest volume home builders in Manhattan while maintaining our commitment to our client's needs. So, although we have won a vast collection of awards, the compass needle by which we measure our success is the ongoing relationships we build with our customers over the long term. When you trust our team at Interior By Design, you won't just be moving to the penthouse but instead embodying an inescapably exhilarating lifestyle like you never imagined was possible.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f433\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/6a8d4ce9-0b72-47e4-3246-b6e9c8575f00/hl150x150\",\"title\":\"Interior By Design\",\"createdAt\":\"2023-01-27T12:02:19.776Z\",\"updatedAt\":\"2023-01-27T12:02:19.776Z\",\"id\":\"63d3bd4bac28cee8de621f73\"},{\"autofill\":true,\"alt\":\"logo for bug banishers\",\"category\":\"Pest Control\",\"content\":\"Why choose Bug Banishers? We put families, health & safety first. We focus on being environmentally responsible, providing fast, efficient service, fixed appointment times, and obligation-free quotes. No questions asked, service guarantees... Industry-backed lifetime warranties. We deliver safe, effective pest control. We're dads; we have kids & pets too... We put your family's welfare above all else. Creative solutions to every pest control situation... we will find a solution where others won't.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f424\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f395440a-b531-4bc2-1815-769187cfb900/hl150x150\",\"title\":\"Bug Banishers\",\"createdAt\":\"2023-01-27T12:01:51.497Z\",\"updatedAt\":\"2023-01-27T12:01:51.497Z\",\"id\":\"63d3bd2fac28cee8de621f71\"},{\"autofill\":true,\"alt\":\"logo for cold & hot: master plumbers\",\"category\":\"Plumbing\",\"content\":\"Cold & Hot is a locally owned and operated business offering professional plumbing, drainage, and gasfitting services in Miami-Dade county and the surrounding regions. From new installations to maintenance, we have the skills and expertise for any residential job. Established in 2000 by John Watson (Cold) and Ben Livingston (Hot), our company has earned its reputation over the past two decades for expert, friendly and affordable service. The master plumbers at Cold & Hot have performed maintenance work for some of Miami's leading real estate agents. We are the plumber of choice for some of the region's most renowned luxury architects and builders. As a member of the United Association, Cold & Hot has a fully qualified team that understands the unique needs and standards that must be met when working with high-end properties in the S. Florida area.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42d\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/90ea722a-dec3-4ba3-9b1f-641fd50b8700/hl150x150\",\"title\":\"Cold & Hot: Master Plumbers\",\"createdAt\":\"2023-01-27T12:01:11.016Z\",\"updatedAt\":\"2023-01-27T12:01:11.016Z\",\"id\":\"63d3bd07ac28cee8de621f6f\"},{\"autofill\":true,\"alt\":\"logo for decon solutions\",\"category\":\"Restoration\",\"content\":\"Decon Solutions is the go-to mold remediation contractor used by insurers around the country. No job is too small for us because mold cleaning is our business. We are always here to help. Our mold remediation experts are highly qualified, ensuring our client's properties are decontaminated to the highest standard. We are a professional company specializing in mold decontamination throughout the country. We have performed hundreds of jobs across the country and have gained a reputation for completely removing hazardous mold contamination and repairing properties afterward. We regularly consult with industry experts to keep up to date with the latest chemicals and techniques to understand the best approach to clean mold & decontaminate properties. Our fine-tuned mold cleaning process is not shared with any other decontamination companies.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42e\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/1bd2977a-3af0-4e66-07a8-a0f03df76300/hl150x150\",\"title\":\"Decon Solutions\",\"createdAt\":\"2023-01-27T12:00:56.233Z\",\"updatedAt\":\"2023-01-27T12:00:56.233Z\",\"id\":\"63d3bcf8ac28cee8de621f6d\"},{\"autofill\":true,\"alt\":\"logo for hvac wizards\",\"category\":\"HVAC\",\"content\":\"At HVAC Wizards, our specialists have been in the industry for years and are experienced in all aspects of air conditioning and electrical work. We work closely with builders and local coding requirements to ensure installations meet with complete customer satisfaction while meeting all needs for a modern HVAC system. Numerous individual customers of HVAC Wizards testify to the company's reliability, quality, and professionalism regarding our HVAC services. As in most industries, technology has changed the nature of business and the products available over the last two decades. At HVAC Wizards, we embrace change to ensure that we offer customers the latest types and models of air conditioning products.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f428\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/e81ae24c-0b34-4d62-d38d-281099119600/hl150x150\",\"title\":\"HVAC Wizards\",\"createdAt\":\"2023-01-27T12:00:24.793Z\",\"updatedAt\":\"2023-01-27T12:00:24.793Z\",\"id\":\"63d3bcd8ac28cee8de621f6b\"},{\"autofill\":true,\"alt\":\"logo for busy bee movers\",\"category\":\"Moving\",\"content\":\"Since 1994, Busy Bee Movers has been moving families and companies within Florida, the United States, and worldwide. Together with the UMC network, we have grown to become one of the largest independent moving alliances, with 18 locations nationwide. This network of interstate specialists allows us to move you safely and reliably anywhere in the United States in just eight days or five days or less between adjoining states. Let Busy Bee Movers take the stress out of your next move. We provide end-to-end removal and storage services to cover all aspects of your relocation, tailored to your needs. We have the experience, manpower, and ambition to ensure your next move is successful.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f42a\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/5ac76a64-e9eb-48b5-45eb-2f6240608100/hl150x150\",\"title\":\"Busy Bee Movers\",\"createdAt\":\"2023-01-27T11:59:58.595Z\",\"updatedAt\":\"2023-01-27T11:59:58.595Z\",\"id\":\"63d3bcbeac28cee8de621f69\"},{\"autofill\":true,\"alt\":\"logo for smith & lock: certified locksmiths\",\"category\":\"Locksmithing\",\"content\":\"Having been in business for over 25 years,  Smith & Lock has a fantastic reputation for providing professional quality, reliable Locksmith and Security Services in SE Florida. Our highly qualified and accredited locksmiths offer fast, friendly, affordable locksmith and security services for residential and commercial clients. Call us anytime, day or night, rain or shine, and we will promptly get you the access you need.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f429\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/6c3dda01-a22e-45b7-55ed-894e6438bc00/hl150x150\",\"title\":\"Smith & Lock: Certified Locksmiths\",\"createdAt\":\"2023-01-27T11:59:25.481Z\",\"updatedAt\":\"2023-01-27T11:59:25.481Z\",\"id\":\"63d3bc9dac28cee8de621f62\"},{\"autofill\":true,\"alt\":\"logo for a handyman service\",\"category\":\"Handyman\",\"content\":\"Name any odd job you can think of, and one of our specialists from A HandyMan Service can do it. We exist because we apply the can-do attitude for which we are so famous to everything we do. If you've ever had the painful experience of being told a job is too complicated or bothersome, you'll love our bright, accommodating, fast, intelligent handymen. Every team member is down-to-earth, efficient, and polite. Most importantly, they do what they say they're going to do, and we always tidy up and will not leave a mess for you to clear up once the work is finished.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f426\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/3f385a50-bbf4-4f24-500d-9afde9aedc00/hl150x150\",\"title\":\"A HandyMan Service\",\"createdAt\":\"2023-01-27T11:57:33.592Z\",\"updatedAt\":\"2023-01-27T11:57:33.592Z\",\"id\":\"63d3bc2dac28cee8de621f57\"},{\"autofill\":true,\"alt\":\"logo for gateguard home security\",\"category\":\"Smart Home\",\"content\":\"GateGuard Security is a proud residential security company; also, we are members of the GateGuard Consortium. Each of our franchisees is an individual business owner that is your local security expert. We offer our customers service and installation of the following; Security Alarms, CCTV Systems and Security Cameras, Professional Monitoring, Medical Alarms, Intercoms, Access Control, and Building Site Protection. We are a trusted brand, and the GateGuard Consortium warranty backs all work; additionally, all franchisees are licensed & undergo an annual compliance review performed by an independent third-party auditor.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f431\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/96940a08-3bf1-40f5-9028-11015faa0100/hl150x150\",\"title\":\"GateGuard Home Security\",\"createdAt\":\"2023-01-27T11:52:49.951Z\",\"updatedAt\":\"2023-01-27T11:52:49.951Z\",\"id\":\"63d3bb11ac28cee8de621f4e\"},{\"autofill\":true,\"alt\":\"logo for glass now\",\"category\":\"Window & Door\",\"content\":\"Glass Now distinguishes itself from the competition because we can handle your emergency glass needs 24 hours, seven days a week. Our specialized, fully equipped mobile glass repair vehicles are stocked with the most common types of glass to ensure that our glaziers can do most repairs without returning to the shop. Glass Now's team of glaziers is mobile and will come to you no matter what time of the day or night. Additionally, Glass Now requires all team members to have all safety equipment needed to install glass per industry standards on their person or in their repair vehicle. Before we depart, the entire affected area will be policed and cleared of all broken glass fragments to ensure further the security of yourself, your family, and/or the public. Our team of glaziers resides at strategic junctions within the local area, allowing us to be small enough to offer a personal touch as individuals while remaining large enough as a whole to tackle the bigger jobs.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f434\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/6c9859dc-6e01-4278-a192-9bef5c7fba00/hl150x150\",\"title\":\"We Handle Your Emergency Glass Needs 24/7!\",\"createdAt\":\"2023-01-27T11:52:06.169Z\",\"updatedAt\":\"2023-01-27T11:52:06.169Z\",\"id\":\"63d3bae6ac28cee8de621dfc\"},{\"autofill\":true,\"alt\":\"logo for mr. green's landscaping\",\"category\":\"Landscaping\",\"content\":\"For 30 years we have provided a Personal and Reliable Landscape Construction, Garden Maintenance and Landscape Design service throughout the southeastern United States. We have worked with some of the leading garden designers, both in Florida and throughout the country, to create stunning gardens for our clients. This collaboration has even allowed Mr. Green's Landscaping to construct multiple award winning displays at flower and garden shows, both in the United States and overseas. With our combined decades of industry experience, our professional team of landscapers and horticulturalists can create and maintain your dream lawn or garden with ease. We invite you to contact us regarding your specific needs.\",\"example\":true,\"helper\":\"63c84e2aa898a3ccba17f427\",\"location\":\"Miami, FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/7eed3699-e5ea-46f2-61cc-05e867363d00/hl150x150\",\"title\":\"Mr. Green's Landscaping\",\"createdAt\":\"2023-01-27T11:50:21.465Z\",\"updatedAt\":\"2023-01-27T11:50:21.465Z\",\"id\":\"63d3ba7dac28cee8de621ca5\"}],\"totalPages\":2,\"currentPage\":-1}"
-										}
-									]
-								},
-								{
-									"name": "listings.updateOne",
-									"id": "427de764-ec5a-44c5-a537-f27b4e8d7c30",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "PATCH",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
 										},
-										"url": {
-											"raw": "{{baseUrlApi}}/listing/:id",
-											"host": [
-												"{{baseUrlApi}}"
-											],
-											"path": [
-												"listing",
-												":id"
-											],
-											"query": [
-												{
-													"key": "",
-													"value": null,
-													"type": "text",
-													"disabled": true
-												}
-											],
-											"variable": [
-												{
-													"key": "id",
-													"value": "63f9bbcb9a3db09a5497cb6f"
-												}
-											]
-										}
-									},
-									"response": [
 										{
-											"id": "1bb5585c-e0a1-4644-8da8-e5cf0dd31278",
-											"name": "404 Not Found",
+											"id": "3610a875-f5dc-454f-b16f-5de48ec9f2ff",
+											"name": "listings.findAllPublished",
 											"originalRequest": {
-												"method": "PATCH",
+												"method": "GET",
 												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
 												"url": {
-													"raw": "{{baseUrlApi}}/listing/:id",
+													"raw": "{{baseUrlApi}}/listings/published?published=false&page=0&size=20",
 													"host": [
 														"{{baseUrlApi}}"
 													],
 													"path": [
-														"listing",
-														":id"
+														"listings",
+														"published"
 													],
 													"query": [
 														{
-															"key": "",
-															"value": null,
-															"type": "text",
-															"disabled": true
-														}
-													],
-													"variable": [
+															"key": "published",
+															"value": "false",
+															"type": "text"
+														},
 														{
-															"key": "id",
-															"value": "63f9bbcb9a3db09a5497cb6f"
+															"key": "page",
+															"value": "0"
+														},
+														{
+															"key": "size",
+															"value": "20"
 														}
 													]
 												}
@@ -2731,7 +2677,7 @@
 												},
 												{
 													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-3cdc53a69b9afd4e3ff5ec1d462defa9';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-b5e28fbd0dc773ddba637522ef3c90ed';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
 												},
 												{
 													"key": "cross-origin-embedder-policy",
@@ -2799,7 +2745,7 @@
 												},
 												{
 													"key": "ratelimit-reset",
-													"value": "864"
+													"value": "883"
 												},
 												{
 													"key": "content-type",
@@ -2815,7 +2761,7 @@
 												},
 												{
 													"key": "date",
-													"value": "Tue, 28 Feb 2023 20:19:34 GMT"
+													"value": "Tue, 28 Feb 2023 20:32:34 GMT"
 												},
 												{
 													"key": "connection",
@@ -2825,7 +2771,53 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"message\":\"Not Found\"}"
+										}
+									]
+								},
+								{
+									"name": "listings.updateOne",
+									"id": "427de764-ec5a-44c5-a537-f27b4e8d7c30",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PATCH",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
 										},
+										"url": {
+											"raw": "{{baseUrlApi}}/listing/:id",
+											"host": [
+												"{{baseUrlApi}}"
+											],
+											"path": [
+												"listing",
+												":id"
+											],
+											"query": [
+												{
+													"key": "",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "63f9bbcb9a3db09a5497cb6f"
+												}
+											]
+										}
+									},
+									"response": [
 										{
 											"id": "70c68d0d-6808-4492-ab38-1b9da341f682",
 											"name": "201 Created",
@@ -2990,6 +2982,167 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"alt\":\"logo for michael's mowing: professional lawn care at an affordable price!!!\",\"autofill\":true,\"category\":\"landscaping\",\"content\":\"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\"example\":false,\"location\":\"Okaloosa%2C%20FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"title\":\"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\",\"createdAt\":\"2023-02-25T08:16:46.690Z\",\"updatedAt\":\"2023-02-28T20:21:24.889Z\",\"helper\":\"63f86cc8edf52f3ca7566c80\",\"id\":\"63f9c3ee8783091f634fcaca\"}"
+										},
+										{
+											"id": "1bb5585c-e0a1-4644-8da8-e5cf0dd31278",
+											"name": "404 Not Found",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"query": [
+														{
+															"key": "",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63f9bbcb9a3db09a5497cb6f"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-3cdc53a69b9afd4e3ff5ec1d462defa9';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "149"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "864"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "23"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"17-SuRA/yvUWUo8rK6x7dKURLeBo+0\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 20:19:34 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Not Found\"}"
 										}
 									]
 								},
@@ -6372,12 +6525,12 @@
 	],
 	"variable": [
 		{
-			"id": "d036d90b-bd65-4ca0-8976-bacfcb566e54",
+			"id": "0bcaef7b-e907-457c-bc20-3ff0ba951ab3",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "1d22f570-2cbc-4acd-bfbd-b5ff1bc77dc7",
+			"id": "8e82469e-8b35-413d-8395-3a2e08dbbc90",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
