@@ -4462,14 +4462,11 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "http://localhost:3000/api/helpers/matching?location=Miami&category=wallpaint",
-											"protocol": "http",
+											"raw": "{{baseUrlApi}}/helpers/matching?location=Miami&category=HVAC&page=0&size=20",
 											"host": [
-												"localhost"
+												"{{baseUrlApi}}"
 											],
-											"port": "3000",
 											"path": [
-												"api",
 												"helpers",
 												"matching"
 											],
@@ -4480,7 +4477,15 @@
 												},
 												{
 													"key": "category",
-													"value": "wallpaint"
+													"value": "HVAC"
+												},
+												{
+													"key": "page",
+													"value": "0"
+												},
+												{
+													"key": "size",
+													"value": "20"
 												}
 											]
 										}
@@ -5338,12 +5343,12 @@
 	],
 	"variable": [
 		{
-			"id": "c7742ac7-8b47-4d7f-ab6a-eea2e6562035",
+			"id": "5d3aa472-9eff-433e-ae1c-951579d53eb3",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "cdf06e81-cb50-43dc-8473-9ad62d738ad6",
+			"id": "ffafd455-b181-4f11-8e10-4cf58d8b0f32",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
