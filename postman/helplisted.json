@@ -4485,161 +4485,7 @@
 											]
 										}
 									},
-									"response": [
-										{
-											"id": "994e8d10-0877-4dac-a45f-6564cccba070",
-											"name": "200 OK (partial match on regex)",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "http://localhost:3000/api/helpers/matching?location=Miami&category=HVAC&page=0&size=20",
-													"protocol": "http",
-													"host": [
-														"localhost"
-													],
-													"port": "3000",
-													"path": [
-														"api",
-														"helpers",
-														"matching"
-													],
-													"query": [
-														{
-															"key": "location",
-															"value": "Miami"
-														},
-														{
-															"key": "category",
-															"value": "HVAC"
-														},
-														{
-															"key": "page",
-															"value": "0",
-															"type": "text"
-														},
-														{
-															"key": "size",
-															"value": "20",
-															"type": "text"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-0ae288e8afe15d90481e08c87c8ee9b5';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"6a0-vyXW/jBDJgSLoJgrD20TFjOsFCM\""
-												},
-												{
-													"key": "date",
-													"value": "Tue, 28 Feb 2023 19:43:43 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Content-Encoding",
-													"value": "gzip"
-												},
-												{
-													"key": "Transfer-Encoding",
-													"value": "chunked"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"totalItems\":3,\"listings\":[{\"alt\":\"furnace fixers (benny) of broward county logo\",\"autofill\":true,\"business\":\"Furnace Fixers (Benny) of Broward County\",\"category\":\"HVAC\",\"email\":\"benny@furnacefixers.com\",\"images\":[],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"reviewCount\":0,\"reviewRatings\":[],\"reviews\":[],\"tel\":7196482913,\"createdAt\":\"2023-02-20T12:56:39.153Z\",\"updatedAt\":\"2023-02-20T12:56:39.153Z\",\"id\":\"63f36e0793c577198b8d20aa\"},{\"alt\":\"furnace fixers (bob) of broward county logo\",\"autofill\":true,\"business\":\"Furnace Fixers (Bob) of Broward County\",\"category\":\"HVAC\",\"email\":\"bob@furnacefixers.com\",\"images\":[],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"reviewCount\":0,\"reviewRatings\":[],\"reviews\":[],\"tel\":7196482913,\"createdAt\":\"2023-02-20T12:56:59.897Z\",\"updatedAt\":\"2023-02-20T12:56:59.897Z\",\"id\":\"63f36e1b93c577198b8d20ae\"},{\"autofill\":true,\"alt\":\"hvac wizards logo\",\"business\":\"HVAC Wizards\",\"category\":\"HVAC\",\"createdAt\":\"2023-01-15T21:57:53.629Z\",\"email\":\"hvac@helplisted.com\",\"images\":[\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/e81ae24c-0b34-4d62-d38d-281099119600/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/e81ae24c-0b34-4d62-d38d-281099119600/hl150x150\",\"reviewCount\":1,\"reviewRatings\":[4],\"reviews\":[\"This example Helper profile has received a review.\"],\"tel\":8016615045,\"updatedAt\":\"2023-01-15T21:57:53.629Z\",\"id\":\"63c84e2aa898a3ccba17f428\"}],\"totalPages\":1,\"currentPage\":-1}"
-										}
-									]
+									"response": []
 								},
 								{
 									"name": "helpers.findAll",
@@ -5492,12 +5338,12 @@
 	],
 	"variable": [
 		{
-			"id": "b8185cea-fd14-40de-b36e-c28a5082f46d",
+			"id": "c7742ac7-8b47-4d7f-ab6a-eea2e6562035",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "dded0ef9-3b46-4565-89cd-28cd44f4ba60",
+			"id": "cdf06e81-cb50-43dc-8473-9ad62d738ad6",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
