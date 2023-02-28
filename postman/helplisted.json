@@ -3723,28 +3723,25 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}helpers/location?published=true&location=Miami&page=0&pageSize=20",
+											"raw": "{{baseUrlApi}}/helpers/location?location=Miami%2C%20FL&page=0&size=20",
 											"host": [
-												"{{baseUrlApi}}helpers"
+												"{{baseUrlApi}}"
 											],
 											"path": [
+												"helpers",
 												"location"
 											],
 											"query": [
 												{
-													"key": "published",
-													"value": "true"
-												},
-												{
 													"key": "location",
-													"value": "Miami"
+													"value": "Miami%2C%20FL"
 												},
 												{
 													"key": "page",
 													"value": "0"
 												},
 												{
-													"key": "pageSize",
+													"key": "size",
 													"value": "20"
 												}
 											]
@@ -4794,12 +4791,12 @@
 	],
 	"variable": [
 		{
-			"id": "6dd547d7-80a5-4628-b7c5-fdb79fe98625",
+			"id": "9da0841e-12ec-4e2a-9922-e095b451ee30",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "c538a5da-8fca-498f-a8fd-7b02149d27f1",
+			"id": "ff3e0a2e-eb49-47c9-82b8-1cdd61b9867f",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
