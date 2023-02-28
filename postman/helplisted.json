@@ -1027,7 +1027,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"Landscaping\",\r\n\t\"content\": \"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\r\n\t\"helper\": \"63ee6a09de56ce7b3403b9c6\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\r\n\t\"title\": \"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\"\r\n}",
+											"raw": "{\r\n\t\"autofillListing\": true,\r\n\t\"category\": \"Landscaping\",\r\n\t\"content\": \"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\r\n\t\"helper\": \"63f86cc8edf52f3ca7566c80\",\r\n\t\"location\": \"Okaloosa, FL\",\r\n\t\"logo\": \"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\r\n\t\"title\": \"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -4809,12 +4809,12 @@
 	],
 	"variable": [
 		{
-			"id": "2c54720a-df1b-43bf-97fb-434632c048b5",
+			"id": "64ed7b1d-01d5-4ea8-8efd-dbd3f86ad921",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "dcc1fa24-dda0-4906-a3dc-3eca95e5024e",
+			"id": "0583f04c-8b9e-493f-b54c-f989a3a3a18a",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
