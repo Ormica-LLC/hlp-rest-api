@@ -5425,153 +5425,6 @@
 									},
 									"response": [
 										{
-											"id": "0f4f14d1-8714-4962-96f5-4a8294b42776",
-											"name": "response.data",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "http://localhost:3000/api/helper/:id",
-													"protocol": "http",
-													"host": [
-														"localhost"
-													],
-													"port": "3000",
-													"path": [
-														"api",
-														"helper",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "630f851b8259717f17c00ff4"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "98"
-												},
-												{
-													"key": "date",
-													"value": "Wed, 31 Aug 2022 17:49:15 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1661968981"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'none';form-action 'none';frame-ancestors 'none'"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "expect-ct",
-													"value": "max-age=2592000, enforce, report-uri=\"https://helplisted.report-uri.com/r/d/ct/enforce\""
-												},
-												{
-													"key": "x-frame-options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "by-content-type"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "strict-origin-when-cross-origin,no-referrer"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "468"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"1d4-uWswW8DB9LnU8F8iYq1IrZ1zIt0\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Vary",
-													"value": "Accept-Encoding"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"listings\":[],\"alt\":\"adkins pro logo\",\"category\":\"restoration\",\"email\":\"algavig@san.gr\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/f8f089b9-2899-4b06-8c6a-da5975900300/1200x675\"],\"location\":\"Tallahassee, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/27db3383-9add-497b-5d28-bfed0070e100/hl300x200\",\"name\":\"Adkins Pro\",\"reviewCount\":0,\"reviews\":[],\"tel\":2209064689,\"updatedAt\":\"2022-08-31T17:48:51.388Z\",\"id\":\"630f851b8259717f17c00ff4\"}"
-										},
-										{
 											"id": "d762c482-50ab-4a42-b684-683ad5a7ce1b",
 											"name": "201 Created",
 											"originalRequest": {
@@ -6213,12 +6066,12 @@
 	],
 	"variable": [
 		{
-			"id": "3b92804d-91d4-410d-927a-24e64c36a498",
+			"id": "1055ab00-7612-4536-af3a-a8432808e331",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "3d231bd3-554c-4a6f-a1f9-a94253278b95",
+			"id": "03e30896-7ae1-44a7-8f04-565a33a84c69",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
