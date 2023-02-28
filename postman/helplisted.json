@@ -3531,7 +3531,7 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers/category?category=HVAC",
+											"raw": "{{baseUrlApi}}/helpers/category?category=HVAC&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -3543,6 +3543,16 @@
 												{
 													"key": "category",
 													"value": "HVAC"
+												},
+												{
+													"key": "page",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "size",
+													"value": "20",
+													"type": "text"
 												}
 											]
 										}
@@ -4796,12 +4806,12 @@
 	],
 	"variable": [
 		{
-			"id": "6a6e6cbf-0201-4005-b690-d310d3523cb6",
+			"id": "abe47b03-2cd9-461b-974c-5b9d89a2a14e",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "4fdd846f-3169-4242-a330-28630b662528",
+			"id": "8fa81e10-6bda-40e8-a85c-e6644be38fdf",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
