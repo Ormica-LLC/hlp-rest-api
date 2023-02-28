@@ -3750,7 +3750,7 @@
 									"response": [
 										{
 											"id": "e0c7ccc8-1db7-4976-ac39-4274fc4b434e",
-											"name": "helpers.findAllByLocation",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -4932,12 +4932,12 @@
 	],
 	"variable": [
 		{
-			"id": "2e8e5e4d-35a6-4c62-995b-371e1378dd6d",
+			"id": "5fb8066c-6e6c-4618-bfd6-164da176c84a",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "663ee590-1d29-40f0-a020-d4ea82bcfad7",
+			"id": "505c3428-726e-407e-9aa7-5fda5e017fa4",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
