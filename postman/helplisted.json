@@ -2812,7 +2812,7 @@
 											"variable": [
 												{
 													"key": "id",
-													"value": "63f9bbcb9a3db09a5497cb6f"
+													"value": "63f9c3ee8783091f634fcaca"
 												}
 											]
 										}
@@ -6525,12 +6525,12 @@
 	],
 	"variable": [
 		{
-			"id": "f7461765-29c1-4f82-a415-0b903434a287",
+			"id": "59506fdc-b1b9-47d2-a962-d5f4f32e3114",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "19c77695-a86a-4b13-a48b-44a48a5abd2a",
+			"id": "9bb89486-3ea8-4793-8abd-95fd33ce887f",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
