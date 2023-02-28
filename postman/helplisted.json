@@ -2621,7 +2621,7 @@
 										},
 										{
 											"id": "3610a875-f5dc-454f-b16f-5de48ec9f2ff",
-											"name": "listings.findAllPublished",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -6525,12 +6525,12 @@
 	],
 	"variable": [
 		{
-			"id": "0bcaef7b-e907-457c-bc20-3ff0ba951ab3",
+			"id": "f7461765-29c1-4f82-a415-0b903434a287",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "8e82469e-8b35-413d-8395-3a2e08dbbc90",
+			"id": "19c77695-a86a-4b13-a48b-44a48a5abd2a",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
