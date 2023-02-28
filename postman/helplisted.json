@@ -2986,6 +2986,171 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"message\":\"Not Found\"}"
+										},
+										{
+											"id": "70c68d0d-6808-4492-ab38-1b9da341f682",
+											"name": "listings.updateOne",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"query": [
+														{
+															"key": "",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63f9c3ee8783091f634fcaca"
+														}
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-16f6db8607d4df5269c44b146f0be1ca';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "146"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "753"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"487-Jm3VeivxI8c0bOClenMgLwCiO6c\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 20:21:24 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												},
+												{
+													"key": "Content-Encoding",
+													"value": "gzip"
+												},
+												{
+													"key": "Transfer-Encoding",
+													"value": "chunked"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"alt\":\"logo for michael's mowing: professional lawn care at an affordable price!!!\",\"autofill\":true,\"category\":\"landscaping\",\"content\":\"Hi I'm Michael and I cut grass. I cut grass really nicely too. And trim it, poles, fences, around your house... you name it, I do it. And all for a single flat-rate low price that we agree upon before any work gets started. That way I'm happy, but more importantly, you are happy, because there is no doubt left in your mind about what I'm going to be doing for your lawn or whether it's going to break the bank. But don't worry, I'm a landscaper, not a bank robber, so your money will remain safe and sound! So what are you waiting for? Pick up the phone and give me a ring so your grass can start to sing!\",\"example\":false,\"location\":\"Okaloosa%2C%20FL\",\"published\":true,\"thumbnail\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"title\":\"Michael's Mowing: Professional Lawn Care at an Affordable Price!!!\",\"createdAt\":\"2023-02-25T08:16:46.690Z\",\"updatedAt\":\"2023-02-28T20:21:24.889Z\",\"helper\":\"63f86cc8edf52f3ca7566c80\",\"id\":\"63f9c3ee8783091f634fcaca\"}"
 										}
 									]
 								},
@@ -6368,12 +6533,12 @@
 	],
 	"variable": [
 		{
-			"id": "c55d2d1c-7847-459f-b3bd-e26ff8906eae",
+			"id": "a6dae7ef-6efa-43a2-ac78-0320fb4f4fdf",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "354661ec-3023-4af3-baf2-f23ab5f48fbe",
+			"id": "407b1905-4f02-42f1-9fcc-e99a874aedd2",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
