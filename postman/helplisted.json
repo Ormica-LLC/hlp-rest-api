@@ -3890,7 +3890,7 @@
 										},
 										{
 											"id": "49d7b622-8599-43af-93c1-ba57ebe1d094",
-											"name": "helpers.findAllByLocation",
+											"name": "200 OK",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5072,12 +5072,12 @@
 	],
 	"variable": [
 		{
-			"id": "ab4d1825-0e82-439a-b2a0-3bed01036d61",
+			"id": "066d17a2-7ff1-4e3f-9d2b-53510aa61c20",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "347cd68e-c613-4fa6-9a1e-623ff55c232b",
+			"id": "72484e6b-357c-43dd-9d09-42437c5243c9",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
