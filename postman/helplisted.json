@@ -3330,6 +3330,138 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"listings\":[],\"alt\":\"sparkys electrical logo\",\"category\":\"electrician\",\"email\":\"electrician@helplisted.com\",\"images\":[\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f9670fbb-5b11-418f-24d2-3cd9890b0300/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/f9670fbb-5b11-418f-24d2-3cd9890b0300/hl150x150\",\"name\":\"Sparky's Electrical\",\"reviewCount\":1,\"reviewRatings\":[4],\"reviews\":[\"This example Helper profile has received a review.\"],\"tel\":8397952863,\"id\":\"63c84e2aa898a3ccba17f425\"}"
+										},
+										{
+											"id": "a2e1d331-c7b5-44ed-b2db-738d0235f2b9",
+											"name": "helpers.findOneById",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/helper/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"helper",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63c84e2aa898a3ccba17f927"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-bd21ea6813d615828e0f8fc0218192d6';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "23"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"17-SuRA/yvUWUo8rK6x7dKURLeBo+0\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 19:38:39 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Not Found\"}"
 										}
 									]
 								},
@@ -3512,7 +3644,7 @@
 										},
 										{
 											"id": "14aea5f8-413c-4cf4-971f-678a5555456d",
-											"name": "helpers.findOneByEmail",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5362,12 +5494,12 @@
 	],
 	"variable": [
 		{
-			"id": "241381d3-fa31-4658-ba78-7f2ae8599b9c",
+			"id": "be257aab-13b3-4298-8375-96081cba06f9",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "75b78966-0a10-4381-a96e-b0b6fbdc244b",
+			"id": "42f1b324-624d-4aaf-8454-54b560b34eb2",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
