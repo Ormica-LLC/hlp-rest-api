@@ -4487,161 +4487,6 @@
 									},
 									"response": [
 										{
-											"id": "d10e5605-ff66-478c-9941-63e49736629a",
-											"name": "data.response",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "http://localhost:3000/api/helpers/matching?location=Miami&category=painting",
-													"protocol": "http",
-													"host": [
-														"localhost"
-													],
-													"port": "3000",
-													"path": [
-														"api",
-														"helpers",
-														"matching"
-													],
-													"query": [
-														{
-															"key": "location",
-															"value": "Miami"
-														},
-														{
-															"key": "category",
-															"value": "painting"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "98"
-												},
-												{
-													"key": "date",
-													"value": "Wed, 31 Aug 2022 16:25:44 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1661963850"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'none';form-action 'none';frame-ancestors 'none'"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "expect-ct",
-													"value": "max-age=2592000, enforce, report-uri=\"https://helplisted.report-uri.com/r/d/ct/enforce\""
-												},
-												{
-													"key": "x-frame-options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "by-content-type"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "strict-origin-when-cross-origin,no-referrer"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "514"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"202-zA1Bsw7APOrPk4wHFuRtB8iRIEE\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Vary",
-													"value": "Accept-Encoding"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"totalItems\":1,\"helpers\":[{\"listings\":[],\"alt\":\"bravo painting logo\",\"category\":\"painting\",\"email\":\"gohisame@futwu.bv\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/efc90325-1e2b-44d9-6199-fc8f8e21a500/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/efc90325-1e2b-44d9-6199-fc8f8e21a500/hl300x200\",\"name\":\"Bravo Painting\",\"reviewCount\":1,\"reviews\":[\"Would not recommend!\"],\"tel\":5775646440,\"id\":\"630f851b8259717f17c00fff\"}],\"totalPages\":1,\"currentPage\":0}"
-										},
-										{
 											"id": "994e8d10-0877-4dac-a45f-6564cccba070",
 											"name": "200 OK (partial match on regex)",
 											"originalRequest": {
@@ -5647,12 +5492,12 @@
 	],
 	"variable": [
 		{
-			"id": "73b9bfd4-6152-4b58-9b54-255701277c24",
+			"id": "b8185cea-fd14-40de-b36e-c28a5082f46d",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "e05a6338-b98f-4cca-9e34-db2d5e0c548e",
+			"id": "dded0ef9-3b46-4565-89cd-28cd44f4ba60",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
