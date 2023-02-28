@@ -2825,6 +2825,167 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"message\":\"Listing was updated successfully.\"}"
+										},
+										{
+											"id": "1bb5585c-e0a1-4644-8da8-e5cf0dd31278",
+											"name": "listings.updateOne",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrlApi}}/listing/:id",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"listing",
+														":id"
+													],
+													"query": [
+														{
+															"key": "",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "63f9bbcb9a3db09a5497cb6f"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-3cdc53a69b9afd4e3ff5ec1d462defa9';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "ratelimit-limit",
+													"value": "150"
+												},
+												{
+													"key": "ratelimit-remaining",
+													"value": "149"
+												},
+												{
+													"key": "ratelimit-reset",
+													"value": "864"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "23"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"17-SuRA/yvUWUo8rK6x7dKURLeBo+0\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 20:19:34 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"message\":\"Not Found\"}"
 										}
 									]
 								},
@@ -6207,12 +6368,12 @@
 	],
 	"variable": [
 		{
-			"id": "d52e762d-a0ac-4289-9f3f-22671d29c551",
+			"id": "65ef9e17-ae91-4f6f-af12-62ce98f88a89",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "ad6b03ec-5291-48ef-a0b2-0f9b97713ddc",
+			"id": "bcfbc604-8b9f-4ae7-bed1-0358db01b301",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
