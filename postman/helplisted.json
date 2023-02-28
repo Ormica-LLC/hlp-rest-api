@@ -2828,7 +2828,7 @@
 										},
 										{
 											"id": "1bb5585c-e0a1-4644-8da8-e5cf0dd31278",
-											"name": "listings.updateOne",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "PATCH",
 												"header": [],
@@ -6368,12 +6368,12 @@
 	],
 	"variable": [
 		{
-			"id": "65ef9e17-ae91-4f6f-af12-62ce98f88a89",
+			"id": "c55d2d1c-7847-459f-b3bd-e26ff8906eae",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "bcfbc604-8b9f-4ae7-bed1-0358db01b301",
+			"id": "354661ec-3023-4af3-baf2-f23ab5f48fbe",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
