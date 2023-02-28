@@ -6066,12 +6066,12 @@
 	],
 	"variable": [
 		{
-			"id": "12efe537-f32f-4b0e-bd20-0f1b7f641f11",
+			"id": "116da993-bfc3-4347-bc0d-d22dca918cc8",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "1018a880-4c9b-4ed3-b078-1de4496ee264",
+			"id": "38e15103-b233-4790-af2a-5e3555741f9b",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
