@@ -5573,7 +5573,7 @@
 										},
 										{
 											"id": "d762c482-50ab-4a42-b684-683ad5a7ce1b",
-											"name": "helpers.updateOne",
+											"name": "201 Created",
 											"originalRequest": {
 												"method": "PATCH",
 												"header": [],
@@ -6213,12 +6213,12 @@
 	],
 	"variable": [
 		{
-			"id": "919a3a33-d2cc-474b-b00a-c9d53969ff80",
+			"id": "3b92804d-91d4-410d-927a-24e64c36a498",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "a9193b8c-90f8-4740-bf2b-db1430dc9971",
+			"id": "3d231bd3-554c-4a6f-a1f9-a94253278b95",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
