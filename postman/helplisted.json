@@ -3531,7 +3531,7 @@
 											}
 										},
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers/category?published=true&category=painting&page=0&pageSize=20",
+											"raw": "{{baseUrlApi}}/helpers/category?category=HVAC",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -3541,20 +3541,8 @@
 											],
 											"query": [
 												{
-													"key": "published",
-													"value": "true"
-												},
-												{
 													"key": "category",
-													"value": "painting"
-												},
-												{
-													"key": "page",
-													"value": "0"
-												},
-												{
-													"key": "pageSize",
-													"value": "20"
+													"value": "HVAC"
 												}
 											]
 										}
@@ -4808,12 +4796,12 @@
 	],
 	"variable": [
 		{
-			"id": "bd4beffa-c984-4dc9-ba20-72c777dc36ba",
+			"id": "6a6e6cbf-0201-4005-b690-d310d3523cb6",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "f1f51f0f-3ca2-4571-9a51-ebc79a828239",
+			"id": "4fdd846f-3169-4242-a330-28630b662528",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
