@@ -5567,7 +5567,7 @@
 										},
 										{
 											"id": "33f72f39-08e6-4d14-aa90-96da679828e2",
-											"name": "helpers.updateOne",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "PATCH",
 												"header": [],
@@ -6207,12 +6207,12 @@
 	],
 	"variable": [
 		{
-			"id": "271f22fa-a58a-4937-b1b0-8d9bf95e8a9d",
+			"id": "d52e762d-a0ac-4289-9f3f-22671d29c551",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "3cb6dc42-2400-4710-aa22-5d6548a5d442",
+			"id": "ad6b03ec-5291-48ef-a0b2-0f9b97713ddc",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
