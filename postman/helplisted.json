@@ -3723,7 +3723,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers/location?location=Okaloosa&page=0&size=20",
+											"raw": "{{baseUrlApi}}/helpers/location?location=Okaloosa%2C%20FL&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -3734,7 +3734,7 @@
 											"query": [
 												{
 													"key": "location",
-													"value": "Okaloosa"
+													"value": "Okaloosa%2C%20FL"
 												},
 												{
 													"key": "page",
@@ -3890,7 +3890,7 @@
 										},
 										{
 											"id": "420076c8-742d-4684-b923-ee84afdd8250",
-											"name": "helpers.findAllByLocation",
+											"name": "200 OK",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5072,12 +5072,12 @@
 	],
 	"variable": [
 		{
-			"id": "b4cbc5e1-bd11-44cd-880b-3eb95602b06f",
+			"id": "fcc2966b-1ae7-4217-8fe2-3811af7e5c77",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "acf12670-7737-4d79-a4d7-50d5271c56ab",
+			"id": "6f9d677d-00e1-4c61-b304-f2e10238e0c0",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
