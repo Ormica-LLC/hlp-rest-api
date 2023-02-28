@@ -5250,139 +5250,6 @@
 									},
 									"response": [
 										{
-											"id": "06e01832-3ea9-4cba-b4c5-80224db1a540",
-											"name": "data.response.200",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": "http://localhost:3000/api/helpers"
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "96"
-												},
-												{
-													"key": "date",
-													"value": "Sat, 10 Dec 2022 02:49:06 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1670641373"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' 'nonce-787432a11f76d0eb64ab2567ad57881e';font-src https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://imagedelivery.net;script-src sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY= sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;script-src-elem https://static.cloudflareinsights.com https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "expect-ct",
-													"value": "max-age=2592000, enforce, report-uri=\"https://helplisted.report-uri.com/r/d/ct/enforce\""
-												},
-												{
-													"key": "x-frame-options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "by-content-type"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "strict-origin-when-cross-origin,no-referrer"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"1324-ubssZt6LhTCboQ290Lwe057y83s\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Vary",
-													"value": "Accept-Encoding"
-												},
-												{
-													"key": "Content-Encoding",
-													"value": "gzip"
-												},
-												{
-													"key": "Transfer-Encoding",
-													"value": "chunked"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"totalItems\":23,\"helpers\":[{\"schema_version\":1,\"alt\":\"examples pest control logo\",\"category\":\"pestkill\",\"email\":\"goccu@ujuhadala.bd\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/6e77371c-f04b-47e5-56ec-859b1fd10100/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/bff62f8c-9eec-4784-64e2-2a8b008eb700/hl75x75\",\"name\":\"Example's Pest Control\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":2774483297,\"id\":\"63209b64468eeee5f899727c\"},{\"schema_version\":1,\"alt\":\"examples homebuying advisors logo\",\"category\":\"homebuy\",\"email\":\"tu@tezeg.mx\",\"images\":[\"ttps://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/aefc6933-20fa-4f4b-abe8-bd2a8f99c700/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/9d764ee3-6bf5-4418-c7b3-7f9c7eca5300/hl75x75\",\"name\":\"Example's Homebuying Advisors\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":3334123116,\"id\":\"63209b64468eeee5f899727d\"},{\"schema_version\":1,\"alt\":\"examples hvac repair\",\"category\":\"furnacefix\",\"email\":\"los@wuraos.ad\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/f8f089b9-2899-4b06-8c6a-da5975900300/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/c666486e-1aec-4c96-0132-4070009ca100/hl75x75\",\"name\":\"Example's HVAC Repair\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":8016615045,\"id\":\"63209b64468eeee5f899727e\"},{\"schema_version\":1,\"alt\":\"examples landscaping service logo\",\"category\":\"grasstrim\",\"email\":\"icenehoj@ici.gr\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/24c3da2f-79ff-482d-96b4-d6518dcb4400/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"name\":\"Example's Landscaping Service\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":7809841795,\"id\":\"63209b64468eeee5f899727f\"},{\"schema_version\":1,\"alt\":\"examples moving company logo\",\"category\":\"boxmove\",\"email\":\"gohisame@futwu.bv\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/d67755a9-60c4-4e76-f696-5dc564296a00/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/213d2f72-bf7b-4b23-151e-e66747162000/hl75x75\",\"name\":\"Example's Moving Company\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":5775646440,\"id\":\"63209b64468eeee5f8997280\"},{\"schema_version\":1,\"alt\":\"examples locksmithing logo\",\"category\":\"lockpick\",\"email\":\"nu@faoribob.om\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/c9b3d7cb-c4a0-46d8-539b-3f193507ab00/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/38403ddc-6b71-4eab-7c8f-2537ecfcac00/hl75x75\",\"name\":\"Example's Locksmithing\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":8688465514,\"id\":\"63209b64468eeee5f8997281\"},{\"schema_version\":1,\"alt\":\"examples carpet cleaning logo\",\"category\":\"carpetclean\",\"email\":\"remkotbap@be.kh\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/69bc7082-4dea-4af7-e4d2-fae42fcaec00/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/9598a38c-3412-44a5-cbec-1afbab902600/hl75x75\",\"name\":\"Example's Carpet Cleaning Service\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":6649838712,\"id\":\"63209b64468eeee5f8997282\"},{\"schema_version\":1,\"alt\":\"examples damage restoration service\",\"category\":\"moldclean\",\"email\":\"jo@esnop.ag\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/062c9c29-0f70-43ec-ced6-f5d1470d7b00/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/0216c17d-6dc3-4272-04ad-f3521862a000/hl75x75\",\"name\":\"Example's Damage Restoration Service\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":7582964515,\"id\":\"63209b64468eeee5f8997283\"},{\"schema_version\":1,\"alt\":\"examples plumbing logo\",\"category\":\"leakfix\",\"email\":\"citu@lippecwuk.mq\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/59a42bf1-37d0-4701-f4d8-4c32c320c300/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/7e039555-05ba-4c42-4788-30ac241dcc00/hl75x75\",\"name\":\"Example's Plumbing\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":2592934892,\"id\":\"63209b64468eeee5f8997284\"},{\"schema_version\":1,\"alt\":\"examples painting logo\",\"category\":\"wallpaint\",\"email\":\"do@pip.hu\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/1d4b919c-6345-4469-5bdf-7d877ff92f00/hl300x200\"],\"location\":\"Miami, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/652ead01-7c44-4c64-ea57-c629dbbfe800/hl75x75\",\"name\":\"Example's Painting\",\"reviewCount\":1,\"reviews\":[\"Example of an average review.\"],\"tel\":3198623775,\"id\":\"63209b64468eeee5f8997285\"}],\"totalPages\":3,\"currentPage\":0}"
-										},
-										{
 											"id": "1a3441ff-864b-4d3c-8adf-022328d4618d",
 											"name": "200 OK",
 											"originalRequest": {
@@ -6207,12 +6074,12 @@
 	],
 	"variable": [
 		{
-			"id": "e117fb63-8e46-4523-b4eb-ac7a37d905be",
+			"id": "44c6c472-eead-42bd-b02d-1a94f7463d8f",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "cc4390db-9cfb-49f1-ad95-bbd3ad6a4d03",
+			"id": "c4340dc0-9a23-4427-b790-db47aee125de",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
