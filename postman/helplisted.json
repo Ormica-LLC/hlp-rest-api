@@ -3374,144 +3374,6 @@
 									},
 									"response": [
 										{
-											"id": "d9170454-5ce0-4916-af96-28bfa7cdc33d",
-											"name": "data.response.200",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n\t\"email\": \"dillon.mante@ethereal.email\"\r\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
-												"url": "http://localhost:3000/api/helpers/email"
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "x-ratelimit-limit",
-													"value": "100"
-												},
-												{
-													"key": "x-ratelimit-remaining",
-													"value": "97"
-												},
-												{
-													"key": "date",
-													"value": "Sat, 10 Dec 2022 22:12:09 GMT"
-												},
-												{
-													"key": "x-ratelimit-reset",
-													"value": "1670711180"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' 'nonce-e321869c527a886476767f3af40cb9f8';font-src https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://imagedelivery.net;script-src sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY= sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;script-src-elem https://static.cloudflareinsights.com https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "expect-ct",
-													"value": "max-age=2592000, enforce, report-uri=\"https://helplisted.report-uri.com/r/d/ct/enforce\""
-												},
-												{
-													"key": "x-frame-options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "by-content-type"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "strict-origin-when-cross-origin,no-referrer"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "417"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"1a1-xAPp0CLwvYQ9sFpQkkVqgPJgK3A\""
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												},
-												{
-													"key": "Vary",
-													"value": "Accept-Encoding"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"schema_version\":1,\"alt\":\"\",\"business\":\"Licensed Locksmiths\",\"category\":\"lockpick\",\"email\":\"dillon.mante@ethereal.email\",\"images\":[],\"location\":\"Helena, MT\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl75x75\",\"reviewCount\":0,\"reviews\":[],\"tel\":4068675309,\"createdAt\":\"2022-12-10T00:02:49.475Z\",\"updatedAt\":\"2022-12-10T00:02:49.475Z\",\"id\":\"6393cca9d6dbcece2b976f9a\"}"
-										},
-										{
 											"id": "570b6207-9b93-476b-a8c3-1180f9ad589a",
 											"name": "200 OK",
 											"originalRequest": {
@@ -4950,12 +4812,12 @@
 	],
 	"variable": [
 		{
-			"id": "7254b41a-62dd-4919-95c9-5e6d70370a79",
+			"id": "e8ec201c-cb3e-4050-9442-21b36b078301",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "d4387904-cb0d-45ea-acf1-c0ea7428e90b",
+			"id": "303b6fbc-840e-433e-9001-7e51f3a5f3de",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
