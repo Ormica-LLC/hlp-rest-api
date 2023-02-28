@@ -4933,7 +4933,7 @@
 										},
 										{
 											"id": "ff76e2ec-737e-4099-b8ae-355d98f70de4",
-											"name": "helpers.findAllMatching",
+											"name": "200 OK (partial matches on category, location, or both)",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5928,12 +5928,12 @@
 	],
 	"variable": [
 		{
-			"id": "441c21f2-52ea-4f86-b483-774435757e3f",
+			"id": "8893d2f7-b348-492f-82b8-af663b0ddfbe",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "85d00e78-766f-4a78-93a8-751fbd3cc957",
+			"id": "7dbd1685-7429-4e15-b2c1-618104d7ed03",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
