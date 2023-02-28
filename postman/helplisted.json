@@ -3723,7 +3723,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers/location?location=Miami%2C%20FL&page=0&size=20",
+											"raw": "{{baseUrlApi}}/helpers/location?location=Okaloosa&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -3734,7 +3734,7 @@
 											"query": [
 												{
 													"key": "location",
-													"value": "Miami%2C%20FL"
+													"value": "Okaloosa"
 												},
 												{
 													"key": "page",
@@ -4791,12 +4791,12 @@
 	],
 	"variable": [
 		{
-			"id": "fbcb0a4d-9fd9-4f01-b6f8-3cc1ba082190",
+			"id": "ea198b58-7679-47c2-9331-517cf322cf38",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "2e0e39a3-5d54-4be8-b5d1-7e6610e4dff3",
+			"id": "e6b27437-d1c8-464a-bcc2-ae06a39db939",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
