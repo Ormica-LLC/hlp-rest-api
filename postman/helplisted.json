@@ -3352,22 +3352,18 @@
 											}
 										},
 										"url": {
-											"raw": "http://localhost:3000/api/helpers/email?email=dillon.mante@ethereal.email",
-											"protocol": "http",
+											"raw": "{{baseUrlApi}}/helpers/email?email=michael@ormica.com",
 											"host": [
-												"localhost"
+												"{{baseUrlApi}}"
 											],
-											"port": "3000",
 											"path": [
-												"api",
 												"helpers",
 												"email"
 											],
 											"query": [
 												{
 													"key": "email",
-													"value": "dillon.mante@ethereal.email",
-													"type": "text"
+													"value": "michael@ormica.com"
 												}
 											]
 										}
@@ -4812,12 +4808,12 @@
 	],
 	"variable": [
 		{
-			"id": "e8ec201c-cb3e-4050-9442-21b36b078301",
+			"id": "bd4beffa-c984-4dc9-ba20-72c777dc36ba",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "303b6fbc-840e-433e-9001-7e51f3a5f3de",
+			"id": "f1f51f0f-3ca2-4571-9a51-ebc79a828239",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
