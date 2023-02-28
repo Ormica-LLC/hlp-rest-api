@@ -2666,167 +2666,6 @@
 									},
 									"response": [
 										{
-											"id": "84a30992-3a71-491e-ac85-2e5c7857c715",
-											"name": "201 Created",
-											"originalRequest": {
-												"method": "PATCH",
-												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Okaloosa%2C%20FL\"\r\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
-												"url": {
-													"raw": "{{baseUrlApi}}/listing/:id",
-													"host": [
-														"{{baseUrlApi}}"
-													],
-													"path": [
-														"listing",
-														":id"
-													],
-													"query": [
-														{
-															"key": "",
-															"value": null,
-															"type": "text",
-															"disabled": true
-														}
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "63f9bbcb9a3db09a5497cb6f"
-														}
-													]
-												}
-											},
-											"status": "Created",
-											"code": 201,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-ccf38a15204038dc3484701f5bdd63d0';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "ratelimit-limit",
-													"value": "150"
-												},
-												{
-													"key": "ratelimit-remaining",
-													"value": "148"
-												},
-												{
-													"key": "ratelimit-reset",
-													"value": "496"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "47"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"2f-/2ulJWed1FN6oKP6i2YUsIqZz8c\""
-												},
-												{
-													"key": "date",
-													"value": "Sat, 25 Feb 2023 07:45:03 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"message\":\"Listing was updated successfully.\"}"
-										},
-										{
 											"id": "1bb5585c-e0a1-4644-8da8-e5cf0dd31278",
 											"name": "404 Not Found",
 											"originalRequest": {
@@ -6533,12 +6372,12 @@
 	],
 	"variable": [
 		{
-			"id": "c5009394-536c-45ad-9a3e-fb1c435b8648",
+			"id": "d036d90b-bd65-4ca0-8976-bacfcb566e54",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "20b9b385-073e-4afd-80c7-713ddd600ccb",
+			"id": "1d22f570-2cbc-4acd-bfbd-b5ff1bc77dc7",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
