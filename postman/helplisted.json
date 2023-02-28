@@ -3510,6 +3510,147 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"schema_version\":1,\"alt\":\"\",\"business\":\"Licensed Locksmiths\",\"category\":\"lockpick\",\"email\":\"dillon.mante@ethereal.email\",\"images\":[],\"location\":\"Helena, MT\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/1b5eafc7-9251-473d-09e5-311ecedb5800/hl75x75\",\"reviewCount\":0,\"reviews\":[],\"tel\":4068675309,\"createdAt\":\"2022-12-10T00:02:49.475Z\",\"updatedAt\":\"2022-12-10T00:02:49.475Z\",\"id\":\"6393cca9d6dbcece2b976f9a\"}"
+										},
+										{
+											"id": "570b6207-9b93-476b-a8c3-1180f9ad589a",
+											"name": "helpers.findOneByEmail",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrlApi}}/helpers/email?email=michael@ormica.com",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"helpers",
+														"email"
+													],
+													"query": [
+														{
+															"key": "email",
+															"value": "michael@ormica.com"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-6a61b7a5f3bbcf5d899e82ab2d442c1a';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "670"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"29e-GJOrAudM0c2ALS+WwlXCjTUaoig\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 14:24:23 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"alt\":\"michael's mowing logo\",\"autofill\":true,\"business\":\"Michael's Mowing\",\"category\":\"Landscaping\",\"email\":\"michael@ormica.com\",\"images\":[],\"location\":\"Okaloosa, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"reviewCount\":5,\"reviewRatings\":[\"5\",\"4.5\",\"4\",\"3\",\"5\"],\"reviews\":[\"Nice landscaping work!\",\"Prompt, did good lawn care.\",\"Would recommend.\",\"Eh, I've seen better, but the work was marginally acceptable.\",\"My favorite landscaper in the whole area!!!\"],\"tel\":5136554250,\"createdAt\":\"2023-02-24T07:52:40.450Z\",\"updatedAt\":\"2023-02-24T07:52:40.450Z\",\"id\":\"63f86cc8edf52f3ca7566c80\"}"
 										}
 									]
 								},
@@ -4809,12 +4950,12 @@
 	],
 	"variable": [
 		{
-			"id": "64ed7b1d-01d5-4ea8-8efd-dbd3f86ad921",
+			"id": "25915182-d0a3-4bb5-9d32-720396b82126",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "0583f04c-8b9e-493f-b54c-f989a3a3a18a",
+			"id": "875b9150-3ac4-4455-af2c-82c0ab387c81",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
