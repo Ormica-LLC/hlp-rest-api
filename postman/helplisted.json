@@ -5570,147 +5570,6 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"listings\":[],\"alt\":\"adkins pro logo\",\"category\":\"restoration\",\"email\":\"algavig@san.gr\",\"images\":[\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/f8f089b9-2899-4b06-8c6a-da5975900300/1200x675\"],\"location\":\"Tallahassee, FL\",\"logo\":\"https://imagedelivery.net/V1nQb2Wy2XhC693mJyMETg/27db3383-9add-497b-5d28-bfed0070e100/hl300x200\",\"name\":\"Adkins Pro\",\"reviewCount\":0,\"reviews\":[],\"tel\":2209064689,\"updatedAt\":\"2022-08-31T17:48:51.388Z\",\"id\":\"630f851b8259717f17c00ff4\"}"
-										},
-										{
-											"id": "8ca823a4-191c-4fa5-aaf6-192ab0ef6b1c",
-											"name": "2000",
-											"originalRequest": {
-												"method": "PATCH",
-												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n\t\"category\": \"landscaping\",\r\n\t\"location\": \"Miami, FL\"\r\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
-												"url": {
-													"raw": "{{baseUrlApi}}/helper/:id",
-													"host": [
-														"{{baseUrlApi}}"
-													],
-													"path": [
-														"helper",
-														":id"
-													],
-													"variable": [
-														{
-															"key": "id",
-															"value": "63f86cc8edf52f3ca7566c80"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "JSON",
-											"header": [
-												{
-													"key": "X-Powered-By",
-													"value": "Express"
-												},
-												{
-													"key": "access-control-allow-origin",
-													"value": "http://localhost:3000"
-												},
-												{
-													"key": "Access-Control-Allow-Methods",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Headers",
-													"value": "*"
-												},
-												{
-													"key": "Vary",
-													"value": "Origin, Accept-Encoding"
-												},
-												{
-													"key": "content-security-policy-report-only",
-													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-502b624431b20a94cc37c0ced74bdb96';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
-												},
-												{
-													"key": "cross-origin-embedder-policy",
-													"value": "require-corp"
-												},
-												{
-													"key": "cross-origin-opener-policy",
-													"value": "same-origin-allow-popups"
-												},
-												{
-													"key": "cross-origin-resource-policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "x-dns-prefetch-control",
-													"value": "off"
-												},
-												{
-													"key": "x-frame-options",
-													"value": "DENY"
-												},
-												{
-													"key": "strict-transport-security",
-													"value": "max-age=31536000; includeSubDomains; preload"
-												},
-												{
-													"key": "x-download-options",
-													"value": "noopen"
-												},
-												{
-													"key": "x-content-type-options",
-													"value": "nosniff"
-												},
-												{
-													"key": "origin-agent-cluster",
-													"value": "?1"
-												},
-												{
-													"key": "x-permitted-cross-domain-policies",
-													"value": "master-only"
-												},
-												{
-													"key": "referrer-policy",
-													"value": "no-referrer,strict-origin-when-cross-origin"
-												},
-												{
-													"key": "x-xss-protection",
-													"value": "0"
-												},
-												{
-													"key": "report-to",
-													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
-												},
-												{
-													"key": "nel",
-													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
-												},
-												{
-													"key": "content-type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "content-length",
-													"value": "667"
-												},
-												{
-													"key": "etag",
-													"value": "W/\"29b-8k78X0E2+qu0Fdxe+spBR4s+GOM\""
-												},
-												{
-													"key": "date",
-													"value": "Tue, 28 Feb 2023 20:10:06 GMT"
-												},
-												{
-													"key": "connection",
-													"value": "close"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\"alt\":\"michael's mowing logo\",\"autofill\":true,\"business\":\"Michael's Mowing\",\"category\":\"landscaping\",\"email\":\"michael@ormica.com\",\"images\":[],\"location\":\"Miami, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"reviewCount\":5,\"reviewRatings\":[\"5\",\"4.5\",\"4\",\"3\",\"5\"],\"reviews\":[\"Nice landscaping work!\",\"Prompt, did good lawn care.\",\"Would recommend.\",\"Eh, I've seen better, but the work was marginally acceptable.\",\"My favorite landscaper in the whole area!!!\"],\"tel\":5136554250,\"createdAt\":\"2023-02-24T07:52:40.450Z\",\"updatedAt\":\"2023-02-28T20:10:06.392Z\",\"id\":\"63f86cc8edf52f3ca7566c80\"}"
 										}
 									]
 								}
@@ -6213,12 +6072,12 @@
 	],
 	"variable": [
 		{
-			"id": "78df825d-7b5b-4222-9bab-f02aba62810d",
+			"id": "ff21defc-0da2-40c2-838d-d720168a4563",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "dcc6baf8-3eff-448c-89da-6376acb8cbe2",
+			"id": "cceaa561-03e7-43a7-8fe7-970b99a35b78",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
