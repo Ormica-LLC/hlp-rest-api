@@ -5227,7 +5227,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers?page=0&size=50",
+											"raw": "{{baseUrlApi}}/helpers?page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -5237,13 +5237,11 @@
 											"query": [
 												{
 													"key": "page",
-													"value": "0",
-													"type": "text"
+													"value": "0"
 												},
 												{
 													"key": "size",
-													"value": "50",
-													"type": "text"
+													"value": "20"
 												}
 											]
 										}
@@ -6074,12 +6072,12 @@
 	],
 	"variable": [
 		{
-			"id": "44c6c472-eead-42bd-b02d-1a94f7463d8f",
+			"id": "76e1088b-be9f-4430-847c-ab9f6570ee6e",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "c4340dc0-9a23-4427-b790-db47aee125de",
+			"id": "a1cf4b9d-7b4b-4b11-829b-76ce6b3f624c",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
