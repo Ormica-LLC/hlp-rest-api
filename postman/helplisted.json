@@ -4791,12 +4791,12 @@
 	],
 	"variable": [
 		{
-			"id": "9da0841e-12ec-4e2a-9922-e095b451ee30",
+			"id": "9d393291-a70e-41bd-bf46-ee099f8815d5",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "ff3e0a2e-eb49-47c9-82b8-1cdd61b9867f",
+			"id": "e7e19158-4341-4f33-b1cf-1ca5e8159134",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
