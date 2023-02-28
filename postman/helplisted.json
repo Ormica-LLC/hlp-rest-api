@@ -4789,7 +4789,7 @@
 										},
 										{
 											"id": "74a335fc-7f0d-4084-9a87-58ac3b054bba",
-											"name": "helpers.findAllMatching",
+											"name": "404 Not Found (partial match too weak)",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5784,12 +5784,12 @@
 	],
 	"variable": [
 		{
-			"id": "4665ff3c-e0a8-459a-9935-976813bf6be0",
+			"id": "5bc1a2ce-9af2-4e2c-8139-fa0b317d5177",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "1f889c7e-4ef4-450b-981c-f68492a7a49b",
+			"id": "3c93688a-0323-456a-b1b2-d2b46724e872",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
