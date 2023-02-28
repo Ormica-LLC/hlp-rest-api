@@ -3713,7 +3713,7 @@
 										},
 										{
 											"id": "2f338baf-96ec-49d2-8bcd-ac546a85a1a8",
-											"name": "helpers.findAllByCategory",
+											"name": "404 Not Found",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
@@ -5221,12 +5221,12 @@
 	],
 	"variable": [
 		{
-			"id": "307861eb-aae4-4d65-89cc-cc1688796f35",
+			"id": "98844792-d9f7-4d9f-9470-970083daa21b",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "b2cd7add-837b-4a63-9e6e-75355a5fbb68",
+			"id": "28605c95-6d21-4437-9b64-cdef5ffef315",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
