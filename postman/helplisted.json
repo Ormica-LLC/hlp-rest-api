@@ -3887,6 +3887,146 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\"message\":\"Not Found\"}"
+										},
+										{
+											"id": "49d7b622-8599-43af-93c1-ba57ebe1d094",
+											"name": "helpers.findAllByLocation",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrlApi}}/helpers/location?location=Okaloosa%2C%20FL&page=0&size=20",
+													"host": [
+														"{{baseUrlApi}}"
+													],
+													"path": [
+														"helpers",
+														"location"
+													],
+													"query": [
+														{
+															"key": "location",
+															"value": "Okaloosa%2C%20FL"
+														},
+														{
+															"key": "page",
+															"value": "0"
+														},
+														{
+															"key": "size",
+															"value": "20"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "JSON",
+											"header": [
+												{
+													"key": "X-Powered-By",
+													"value": "Express"
+												},
+												{
+													"key": "access-control-allow-origin",
+													"value": "http://localhost:3000"
+												},
+												{
+													"key": "Access-Control-Allow-Methods",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Headers",
+													"value": "*"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin, Accept-Encoding"
+												},
+												{
+													"key": "content-security-policy-report-only",
+													"value": "default-src 'self' https://yvlzfrjsqimkifwtpkso.supabase.co 'nonce-27e4ead0e2fffd5725b8c685b6365d63';font-src 'self' https: data:;frame-ancestors 'none';img-src data: https://badge.hardenize.com https://yvlzfrjsqimkifwtpkso.supabase.co;script-src https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://unpkg.com https://www.clarity.ms sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= sha256-DrRB93mB/cfs/2T2D7/ofNjKcE43PQyH3iS+tMd6tRo= sha256-pn3wDl/MeKihCaq896n1zVOMvqAaErkZFSA3BJVoUaY=;script-src-elem https://analytics.google.com https://cdn-cookieyes.com https://l.clarity.ms https://static.cloudflareinsights.com https://unpkg.com https://www.clarity.ms https://www.googletagmanager.com;style-src sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;style-src-elem data:;upgrade-insecure-requests"
+												},
+												{
+													"key": "cross-origin-embedder-policy",
+													"value": "require-corp"
+												},
+												{
+													"key": "cross-origin-opener-policy",
+													"value": "same-origin-allow-popups"
+												},
+												{
+													"key": "cross-origin-resource-policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "x-dns-prefetch-control",
+													"value": "off"
+												},
+												{
+													"key": "x-frame-options",
+													"value": "DENY"
+												},
+												{
+													"key": "strict-transport-security",
+													"value": "max-age=31536000; includeSubDomains; preload"
+												},
+												{
+													"key": "x-download-options",
+													"value": "noopen"
+												},
+												{
+													"key": "x-content-type-options",
+													"value": "nosniff"
+												},
+												{
+													"key": "origin-agent-cluster",
+													"value": "?1"
+												},
+												{
+													"key": "x-permitted-cross-domain-policies",
+													"value": "master-only"
+												},
+												{
+													"key": "referrer-policy",
+													"value": "no-referrer,strict-origin-when-cross-origin"
+												},
+												{
+													"key": "x-xss-protection",
+													"value": "0"
+												},
+												{
+													"key": "report-to",
+													"value": "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://helplisted.report-uri.com/a/d/g\",\"priority\":1}],\"include_subdomains\":true}"
+												},
+												{
+													"key": "nel",
+													"value": "{\"report_to\":\"default\",\"max_age\":31536000,\"include_subdomains\":true}"
+												},
+												{
+													"key": "content-type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "content-length",
+													"value": "732"
+												},
+												{
+													"key": "etag",
+													"value": "W/\"2dc-STuB+OodHWcx3wJhWLZ0stEfsx0\""
+												},
+												{
+													"key": "date",
+													"value": "Tue, 28 Feb 2023 19:35:01 GMT"
+												},
+												{
+													"key": "connection",
+													"value": "close"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\"totalItems\":1,\"listings\":[{\"alt\":\"michael's mowing logo\",\"autofill\":true,\"business\":\"Michael's Mowing\",\"category\":\"Landscaping\",\"email\":\"michael@ormica.com\",\"images\":[],\"location\":\"Okaloosa, FL\",\"logo\":\"https://helplisted.com/cdn-cgi/imagedelivery/V1nQb2Wy2XhC693mJyMETg/06c3c4a9-e555-4d93-2a53-445c54966800/hl75x75\",\"reviewCount\":5,\"reviewRatings\":[\"5\",\"4.5\",\"4\",\"3\",\"5\"],\"reviews\":[\"Nice landscaping work!\",\"Prompt, did good lawn care.\",\"Would recommend.\",\"Eh, I've seen better, but the work was marginally acceptable.\",\"My favorite landscaper in the whole area!!!\"],\"tel\":5136554250,\"createdAt\":\"2023-02-24T07:52:40.450Z\",\"updatedAt\":\"2023-02-24T07:52:40.450Z\",\"id\":\"63f86cc8edf52f3ca7566c80\"}],\"totalPages\":1,\"currentPage\":-1}"
 										}
 									]
 								},
@@ -4932,12 +5072,12 @@
 	],
 	"variable": [
 		{
-			"id": "5fb8066c-6e6c-4618-bfd6-164da176c84a",
+			"id": "ab4d1825-0e82-439a-b2a0-3bed01036d61",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "505c3428-726e-407e-9aa7-5fda5e017fa4",
+			"id": "347cd68e-c613-4fa6-9a1e-623ff55c232b",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
