@@ -4462,7 +4462,7 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{baseUrlApi}}/helpers/matching?location=Miami&category=HVAC&page=0&size=20",
+											"raw": "{{baseUrlApi}}/helpers/matching?location=Miami%2C%20FL&category=HAVC&page=0&size=20",
 											"host": [
 												"{{baseUrlApi}}"
 											],
@@ -4473,11 +4473,11 @@
 											"query": [
 												{
 													"key": "location",
-													"value": "Miami"
+													"value": "Miami%2C%20FL"
 												},
 												{
 													"key": "category",
-													"value": "HVAC"
+													"value": "HAVC"
 												},
 												{
 													"key": "page",
@@ -5784,12 +5784,12 @@
 	],
 	"variable": [
 		{
-			"id": "5bc1a2ce-9af2-4e2c-8139-fa0b317d5177",
+			"id": "b104e628-3f1b-44e6-ac44-e6610d3271f2",
 			"key": "baseUrl",
 			"value": "http://localhost:3000"
 		},
 		{
-			"id": "3c93688a-0323-456a-b1b2-d2b46724e872",
+			"id": "e68e0877-ac41-43b3-bd05-4e6dfa91fe65",
 			"key": "baseUrlApi",
 			"value": "{{baseUrl}}/api"
 		}
